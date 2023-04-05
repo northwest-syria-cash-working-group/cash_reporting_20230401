@@ -1,0 +1,665 @@
+distribution_date,implementing_partner,abbreviation,partner_code,project_status,currency,transfer_value,families,beneficiaries,governorate,district,sub_district,community,admin1pcode,admin2pcode,admin3pcode,admin4pcode,village_camps,longitude_x,latitude_y,total_usd,response_type
+2023-02-09T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,8,40,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Camp,37.04316,36.584872,1200,Earthquake
+2023-02-09T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,28,140,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Camp,37.04316,36.584872,4200,Earthquake
+2023-02-09T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,92,460,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Camp,37.04316,36.584872,13800,Earthquake
+2023-02-09T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,135,675,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Camp,37.04316,36.584872,20250,Earthquake
+2023-02-09T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,24,120,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Village,37.04316,36.584872,3600,Earthquake
+2023-02-09T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,32,160,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Village,37.04316,36.584872,4800,Earthquake
+2023-02-09T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,110,550,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Village,37.04316,36.584872,16500,Earthquake
+2023-02-10T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,120,149,745,Idleb,Idleb,Idleb,Idleb,SY07,SY0700,SY070000,C3871,In the Village,36.635276,35.929008,17880,Earthquake
+2023-02-10T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,120,201,1005,Idleb,Jisr-Ash-Shugur,Jisr-Ash-Shugur,Jisr-Ash-Shugur,SY07,SY0704,SY070400,C4199,In the Village,36.314953,35.814181,24120,Earthquake
+2023-02-10T00:00:00Z,Norwegian Refugee Council (NRC),NRC,CBRTWG-032,Completed,USD,150,263,1315,Idleb,Harim,Harim,Harim,SY07,SY0703,SY070300,C4115,In the Village,36.520746,36.212594,39450,Earthquake
+2023-02-10T00:00:00Z,Bahar Organization (BO),BO,CBRTWG-038,Completed,USD,150,2400,12000,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,360000,Earthquake
+2023-02-11T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,93,510,Idleb,Harim,Dana,Qah,SY07,SY0703,SY070301,C4131,In the Camp,36.725165,36.296273,13950,Earthquake
+2023-02-11T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,107,579,Aleppo,Jebel Saman,Atareb,Atareb,SY02,SY0200,SY020001,C1022,In the Camp,36.828382,36.137884,16050,Earthquake
+2023-02-11T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,68,360,Idleb,Harim,Dana,Qah,SY07,SY0703,SY070301,C4131,In the Camp,36.725165,36.296273,10200,Earthquake
+2023-02-11T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,80,442,Aleppo,Jebel Saman,Atareb,Atareb,SY02,SY0200,SY020001,C1022,In the Camp,36.828382,36.137884,12000,Earthquake
+2023-02-11T00:00:00Z,Norwegian Refugee Council (NRC),NRC,CBRTWG-032,Completed,USD,150,2000,1504,Idleb,Harim,Harim,Harim,SY07,SY0703,SY070300,C4115,In the Village,36.520746,36.212594,300000,Earthquake
+2023-02-11T00:00:00Z,Norwegian Refugee Council (NRC),NRC,CBRTWG-032,Completed,USD,150,2000,1548,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,300000,Earthquake
+2023-02-12T00:00:00Z,Norwegian Refugee Council (NRC),NRC,CBRTWG-032,Completed,USD,150,680,3400,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,102000,Earthquake
+2023-02-12T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,105,525,Aleppo,Jarablus,Jarablus,Jarablus,SY02,SY0208,SY020800,C2227,In the Village,38.009919,36.814478,15750,Earthquake
+2023-02-12T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,22,110,Aleppo,Jarablus,Jarablus,Jarablus,SY02,SY0208,SY020800,C2227,In the Village,38.009919,36.814478,3300,Earthquake
+2023-02-13T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,22,110,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Village,37.04316,36.584872,3300,Earthquake
+2023-02-13T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,138,690,Aleppo,A'zaz,A'zaz,Nayara,SY02,SY0204,SY020400,C1573,Village & Camps,37.110584,36.608169,20700,Earthquake
+2023-02-13T00:00:00Z,Orange Organisation (OO),OO,CBRTWG-040,Completed,USD,150,1000,5000,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,Village & Camps,36.453694,36.139048,150000,Earthquake
+2023-02-13T00:00:00Z,Norwegian Refugee Council (NRC),NRC,CBRTWG-032,Completed,USD,150,1500,7500,Idleb,Harim,Harim,Harim,SY07,SY0703,SY070300,C4115,In the Village,36.520746,36.212594,225000,Earthquake
+2023-02-14T00:00:00Z,Norwegian Refugee Council (NRC),NRC,CBRTWG-032,Completed,USD,150,1000,5000,Idleb,Harim,Salqin,Azmarin,SY07,SY0703,SY070302,C4143,In the Village,36.401422,36.055985,150000,Earthquake
+2023-02-20T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,170,850,Idleb,Jisr-Ash-Shugur,Janudiyeh,Hamama - Kafr Debbin,SY07,SY0704,SY070403,C4267,In the Camp,36.357168,35.923269,25500,Earthquake
+2023-02-20T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,51,255,Idleb,Jisr-Ash-Shugur,Janudiyeh,Foz - Zuf,SY07,SY0704,SY070403,C4263,In the Village,36.234349,35.941613,7650,Earthquake
+2023-02-20T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,150,750,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,22500,Earthquake
+2023-02-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,337,1685,Idleb,Harim,Salqin,Azmarin,SY07,SY0703,SY070302,C4143,In the Village,36.401422,36.055985,50550,Earthquake
+2023-02-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,1200,6000,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,180000,Earthquake
+2023-02-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,85,425,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,12750,Earthquake
+2023-02-21T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,550,2750,Idleb,Harim,Harim,Harim,SY07,SY0703,SY070300,C4115,In the Village,36.520746,36.212594,82500,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,30,150,Aleppo,Afrin,Jandairis,Tal Slur,SY02,SY0203,SY020302,C1433,In the Village,36.722157,36.365517,4500,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,8,40,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,1200,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,10,50,Aleppo,Afrin,Jandairis,Kafr Safra,SY02,SY0203,SY020302,C1449,In the Village,36.66183,36.427593,1500,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,10,50,Aleppo,Afrin,Jandairis,Sheikh Abel Rahman,SY02,SY0203,SY020302,C1419,In the Village,36.763546,36.431499,1500,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,11,55,Aleppo,Afrin,Jandairis,Mhamadia,SY02,SY0203,SY020302,C8135,In the Village,36.681836,36.347197,1650,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,15,75,Aleppo,Afrin,Jandairis,Abu Ka'ab,SY02,SY0203,SY020302,C8151,In the Village,36.740602,36.386379,2250,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,150,75,Idleb,Harim,Salqin,Hamziyeh,SY07,SY0703,SY070302,C4134,In the Village,36.386434,36.103764,22500,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,16,80,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,2400,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,20,100,Aleppo,Afrin,Jandairis,Eastern Eshkan,SY02,SY0203,SY020302,C1441,In the Village,36.732657,36.460964,3000,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,21,105,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,3150,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,21,105,Aleppo,Afrin,Jandairis,Freiriyeh,SY02,SY0203,SY020302,C1446,In the Village,36.770773,36.399595,3150,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,22,110,Aleppo,Afrin,Jandairis,Koran Jandris,SY02,SY0203,SY020302,C1447,In the Village,36.673392,36.43962,3300,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,43,115,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,6450,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,24,120,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,3600,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,23,120,Aleppo,Jarablus,Jarablus,Jarablus,SY02,SY0208,SY020800,C2227,In the Village,38.009919,36.814478,3450,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,25,125,Aleppo,Afrin,Jandairis,Deir Ballut,SY02,SY0203,SY020302,C1435,In the Village,36.664883,36.339706,3750,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,30,150,Aleppo,Afrin,Jandairis,Kharzan,SY02,SY0203,SY020302,C1432,In the Village,36.734461,36.471991,4500,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,30,150,Aleppo,Afrin,Jandairis,Koban,SY02,SY0203,SY020302,C7490,In the Village,36.671902,36.457256,4500,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,31,155,Aleppo,Afrin,Jandairis,Upper Maskeh,SY02,SY0203,SY020302,C1444,In the Village,36.693584,36.45517,4650,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,35,175,Aleppo,Afrin,Jandairis,Nisriyeh,SY02,SY0203,SY020302,C1439,In the Village,36.641227,36.350866,5250,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,35,175,Aleppo,Afrin,Jandairis,Mhamadia,SY02,SY0203,SY020302,C8135,In the Village,36.681836,36.347197,5250,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,40,200,Aleppo,Afrin,Jandairis,Kordan,SY02,SY0203,SY020302,C1445,In the Village,36.675934,36.470447,6000,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,40,200,Aleppo,Afrin,Jandairis,Zanda,SY02,SY0203,SY020302,C1438,In the Village,36.694587,36.418609,6000,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,40,200,Aleppo,Afrin,Jandairis,Jalma (Jandairis),SY02,SY0203,SY020302,C1424,In the Village,36.770047,36.357144,6000,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,40,200,Aleppo,Afrin,Jandairis,Hajilar,SY02,SY0203,SY020302,C8150,In the Village,36.71882,36.385784,6000,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,40,200,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,6000,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,40,200,Aleppo,Afrin,Ma'btali,Kantara Ma'abatli,SY02,SY0203,SY020306,C7522,In the Village,36.72849,36.562487,6000,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,40,200,Aleppo,Afrin,Ma'btali,Ma'btali,SY02,SY0203,SY020306,C1552,In the Village,36.736791,36.563264,6000,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,130,650,Idleb,Harim,Salqin,Allani,SY07,SY0703,SY070302,C4142,In the Village,36.389057,36.160124,19500,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,45,225,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,6750,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,50,250,Aleppo,Afrin,Jandairis,Koran Jandris,SY02,SY0203,SY020302,C1447,In the Village,36.673392,36.43962,7500,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,50,250,Aleppo,Al Bab,Al Bab,Qabasin,SY02,SY0202,SY020200,C1209,In the Village,37.566282,36.433731,7500,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,52,260,Aleppo,Afrin,Jandairis,Burj Kmush,SY02,SY0203,SY020302,C1428,In the Village,36.711932,36.429095,7800,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,60,300,Aleppo,Afrin,Jandairis,Baflur,SY02,SY0203,SY020302,C8156,In the Village,36.665505,36.398592,9000,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,60,300,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,9000,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,60,300,Aleppo,Afrin,Jandairis,Ramadiyeh (Jandairis),SY02,SY0203,SY020302,C1422,In the Village,36.745457,36.399148,9000,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,68,340,Aleppo,Afrin,Jandairis,Nisriyeh,SY02,SY0203,SY020302,C1439,In the Village,36.641227,36.350866,10200,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,70,350,Aleppo,Afrin,Jandairis,Hikageh,SY02,SY0203,SY020302,C8166,In the Village,36.601585,36.435708,10500,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,75,375,Aleppo,Afrin,Jandairis,Tatara-Tataranli,SY02,SY0203,SY020302,C6398,In the Village,36.655623,36.499755,11250,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,90,450,Aleppo,Afrin,Ma'btali,Ma'btali,SY02,SY0203,SY020306,C1552,In the Village,36.736791,36.563264,13500,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,110,550,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,16500,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,200,650,Aleppo,Al Bab,Al Bab,Bazagha,SY02,SY0202,SY020200,C1188,In the Village,37.5661,36.383375,30000,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,135,675,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,20250,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,141,705,Aleppo,Afrin,Ma'btali,Yakhur - Ayki Yakhur,SY02,SY0203,SY020306,C1555,In the Village,36.704232,36.51471,21150,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,185,925,Aleppo,Afrin,Jandairis,Hmlak-Hmelek,SY02,SY0203,SY020302,C6397,In the Village,36.721556,36.398836,27750,Earthquake
+2023-02-22T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,56,280,Aleppo,A'zaz,Mare',Mare',SY02,SY0204,SY020403,C1643,In the Village,37.196486,36.482688,8400,Earthquake
+2023-02-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,75,375,Idleb,Harim,Harim,Harim,SY07,SY0703,SY070300,C4115,In the Village,36.520746,36.212594,11250,Earthquake
+2023-02-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,60,300,Aleppo,Afrin,Jandairis,Haji Hasanli,SY02,SY0203,SY020302,C8184,In the Village,36.653081,36.484728,9000,Earthquake
+2023-02-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,75,375,Idleb,Harim,Harim,Harim,SY07,SY0703,SY070300,C4115,In the Village,36.520746,36.212594,11250,Earthquake
+2023-02-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,80,400,Aleppo,Afrin,Jandairis,Sheikh Abel Rahman,SY02,SY0203,SY020302,C1419,In the Village,36.763546,36.431499,12000,Earthquake
+2023-02-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,90,450,Aleppo,Afrin,Jandairis,Eastern Eshkan,SY02,SY0203,SY020302,C1441,In the Village,36.732657,36.460964,13500,Earthquake
+2023-02-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,95,475,Aleppo,Afrin,Jandairis,Western Khaltan,SY02,SY0203,SY020302,C1436,In the Village,36.70773,36.480833,14250,Earthquake
+2023-02-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,100,500,Aleppo,Afrin,Jandairis,Jum Afrin,SY02,SY0203,SY020302,C1421,In the Village,36.713316,36.451901,15000,Earthquake
+2023-02-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,200,1000,Aleppo,Afrin,Jandairis,Deir Ballut,SY02,SY0203,SY020302,C1435,In the Village,36.664883,36.339706,30000,Earthquake
+2023-02-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,320,1600,Aleppo,Afrin,Jandairis,Ramadiyeh (Jandairis),SY02,SY0203,SY020302,C1422,In the Village,36.745457,36.399148,48000,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,37,185,Aleppo,Afrin,Sharan,Ali Bazan,SY02,SY0203,SY020304,C1512,In the Village,36.919482,36.652046,5550,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,11,55,Aleppo,Afrin,Sharan,Dama - Ayki Dam,SY02,SY0203,SY020304,C1495,In the Village,37.029497,36.730563,1650,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,7,35,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Village,36.9416,36.621308,1050,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,8,40,Aleppo,Afrin,Sharan,Doraq,SY02,SY0203,SY020304,C1506,In the Village,36.910096,36.706494,1200,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,18,90,Aleppo,Afrin,Sharan,Kafr Janna,SY02,SY0203,SY020304,C1518,In the Village,36.949674,36.584073,2700,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,18,90,Aleppo,Afrin,Sharan,Kafroum,SY02,SY0203,SY020304,C1522,In the Village,36.859188,36.590325,2700,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,40,200,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Village,36.9416,36.621308,6000,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,34,170,Aleppo,Afrin,Sharan,Little Hallubi,SY02,SY0203,SY020304,C1501,In the Village,36.885332,36.603605,5100,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,104,520,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Village,36.9416,36.621308,15600,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,11,55,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Village,36.9416,36.621308,1650,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,55,275,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Village,36.9416,36.621308,8250,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,1,5,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Village,36.9416,36.621308,150,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,26,130,Aleppo,Afrin,Sharan,Qastal Jend,SY02,SY0203,SY020304,C1521,In the Village,37.017854,36.632044,3900,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,89,445,Aleppo,Afrin,Sharan,Qatmet Efrin,SY02,SY0203,SY020304,C1524,In the Village,36.963116,36.587216,13350,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,70,350,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Village,36.9416,36.621308,10500,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,7,35,Aleppo,Afrin,Sharan,Ser - Sarnjak,SY02,SY0203,SY020304,C1508,In the Village,36.911255,36.725783,1050,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,115,575,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Village,36.9416,36.621308,17250,Earthquake
+2023-02-22T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,4,20,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Village,36.9416,36.621308,600,Earthquake
+2023-02-23T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,65,325,Idleb,Harim,Harim,Harim,SY07,SY0703,SY070300,C4115,In the Village,36.520746,36.212594,9750,Earthquake
+2023-02-23T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,70,350,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,10500,Earthquake
+2023-02-23T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,75,375,Idleb,Harim,Harim,Harim,SY07,SY0703,SY070300,C4115,In the Village,36.520746,36.212594,11250,Earthquake
+2023-02-23T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,105,525,Idleb,Harim,Salqin,Azmarin,SY07,SY0703,SY070302,C4143,In the Village,36.401422,36.055985,15750,Earthquake
+2023-02-23T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,330,1650,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,49500,Earthquake
+2023-02-23T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,376,1880,Idleb,Harim,Salqin,Hamziyeh,SY07,SY0703,SY070302,C4134,In the Village,36.386434,36.103764,56400,Earthquake
+2023-02-23T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,800,4000,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,120000,Earthquake
+2023-02-23T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,1200,6000,Idleb,Harim,Harim,Harim,SY07,SY0703,SY070300,C4115,In the Village,36.520746,36.212594,180000,Earthquake
+2023-02-23T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,2000,10000,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,300000,Earthquake
+2023-02-23T00:00:00Z,World Vision International (WVI),WVI,CBRTWG-042,Completed,USD,150,430,2580,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Village,36.76958,36.213601,64500,Earthquake
+2023-02-23T00:00:00Z,World Vision International (WVI),WVI,CBRTWG-042,Completed,USD,150,430,2580,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Village,36.76958,36.213601,64500,Earthquake
+2023-02-24T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,32,160,Idleb,Idleb,Maaret Tamsrin,Kaftin,SY07,SY0700,SY070005,C3951,In the Village,36.679597,36.09584,4800,Earthquake
+2023-02-24T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,284,1479,Idleb,Idleb,Maaret Tamsrin,Zardana Mashehad,SY07,SY0700,SY070005,C3938,In the Village,36.755304,36.045712,42600,Earthquake
+2023-02-24T00:00:00Z,World Vision International (WVI),WVI,CBRTWG-042,Completed,USD,150,197,1182,Idleb,Harim,Harim,Harim,SY07,SY0703,SY070300,C4115,In the Village,36.520746,36.212594,29550,Earthquake
+2023-02-24T00:00:00Z,World Vision International (WVI),WVI,CBRTWG-042,Completed,USD,150,349,2094,Idleb,Harim,Dana,Termanin,SY07,SY0703,SY070301,C4125,In the Village,36.815206,36.228402,52350,Earthquake
+2023-02-25T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,171,1038,Idleb,Idleb,Maaret Tamsrin,Maaret Elekhwan,SY07,SY0700,SY070005,C3950,In the Village,36.674353,36.063862,25650,Earthquake
+2023-02-25T00:00:00Z,World Vision International (WVI),WVI,CBRTWG-042,Completed,USD,150,192,1152,Idleb,Harim,Dana,Burdaqly,SY07,SY0703,SY070301,C6693,In the Village,36.73179,36.21333,28800,Earthquake
+2023-02-25T00:00:00Z,World Vision International (WVI),WVI,CBRTWG-042,Completed,USD,150,410,2460,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Village,36.76958,36.213601,61500,Earthquake
+2023-02-26T00:00:00Z,Takaful Al Sham (TAS),TAS,CBRTWG-037,Completed,USD,150,395,1975,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,59250,Earthquake
+2023-02-26T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,100,500,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,Village & Camps,36.865523,36.511094,15000,Earthquake
+2023-02-26T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,23,115,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,Village & Camps,36.865523,36.511094,3450,Earthquake
+2023-02-26T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,208,1040,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,Village & Camps,36.865523,36.511094,31200,Earthquake
+2023-02-27T00:00:00Z,Takaful Al Sham (TAS),TAS,CBRTWG-037,Completed,USD,150,500,2500,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,75000,Earthquake
+2023-02-28T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,90,450,Aleppo,Afrin,Jandairis,Jum Afrin,SY02,SY0203,SY020302,C1421,In the Village,36.713316,36.451901,13500,Earthquake
+2023-02-28T00:00:00Z,Takaful Al Sham (TAS),TAS,CBRTWG-037,Completed,USD,150,32,160,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,4800,Earthquake
+2023-03-02T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,300,1500,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Camp,36.9416,36.621308,45000,Earthquake
+2023-03-02T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,70,350,Aleppo,Afrin,Jandairis,Haji Hasanli,SY02,SY0203,SY020302,C8184,In the Village,36.653081,36.484728,10500,Earthquake
+2023-03-02T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,42,210,Aleppo,Afrin,Jandairis,Deir Ballut,SY02,SY0203,SY020302,C1435,In the Village,36.664883,36.339706,6300,Earthquake
+2023-03-02T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,77,385,Aleppo,Afrin,Jandairis,Burj Kmush,SY02,SY0203,SY020302,C1428,In the Village,36.711932,36.429095,11550,Earthquake
+2023-03-04T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,35,210,Idleb,Harim,Kafr Takharim,Kafr Takharim,SY07,SY0703,SY070303,C4157,In the Camp,36.51543,36.116497,3500,Earthquake
+2023-03-04T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,35,210,Idleb,Harim,Kafr Takharim,Kafr Takharim,SY07,SY0703,SY070303,C4157,In the Camp,36.51543,36.116497,3500,Earthquake
+2023-03-04T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,40,240,Idleb,Jisr-Ash-Shugur,Darkosh,Ramadiyeh (Darkosh),SY07,SY0704,SY070402,C4242,In the Camp,36.398463,36.034656,4000,Earthquake
+2023-03-04T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,40,240,Idleb,Harim,Salqin,Azmarin,SY07,SY0703,SY070302,C4143,In the Camp,36.401422,36.055985,4000,Earthquake
+2023-03-04T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,4,24,Idleb,Jisr-Ash-Shugur,Darkosh,Darkosh,SY07,SY0704,SY070402,C4252,In the Village,36.393373,35.992443,400,Earthquake
+2023-03-04T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,8,48,Idleb,Harim,Salqin,Azmarin,SY07,SY0703,SY070302,C4143,In the Village,36.401422,36.055985,800,Earthquake
+2023-03-04T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,11,66,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Village,36.76958,36.213601,1100,Earthquake
+2023-03-04T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,11,66,Idleb,Harim,Kafr Takharim,Kafr Takharim,SY07,SY0703,SY070303,C4157,In the Village,36.51543,36.116497,1100,Earthquake
+2023-03-04T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,30,180,Idleb,Jisr-Ash-Shugur,Darkosh,Darkosh,SY07,SY0704,SY070402,C4252,In the Village,36.393373,35.992443,3000,Earthquake
+2023-03-05T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,48,240,Aleppo,Afrin,Jandairis,Koban,SY02,SY0203,SY020302,C7490,In the Village,36.671902,36.457256,7200,Earthquake
+2023-03-05T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,50,300,Idleb,Harim,Salqin,Azmarin,SY07,SY0703,SY070302,C4143,In the Camp,36.401422,36.055985,5000,Earthquake
+2023-03-05T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,56,336,Idleb,Harim,Qourqeena,Qourqeena,SY07,SY0703,SY070304,C4174,In the Camp,36.61267,36.138546,5600,Earthquake
+2023-03-05T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,79,474,Idleb,Harim,Armanaz,Armanaz,SY07,SY0703,SY070305,C4176,In the Camp,36.502023,36.084016,7900,Earthquake
+2023-03-05T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,80,480,Idleb,Harim,Salqin,Azmarin,SY07,SY0703,SY070302,C4143,In the Camp,36.401422,36.055985,8000,Earthquake
+2023-03-05T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,80,480,Idleb,Harim,Salqin,Azmarin,SY07,SY0703,SY070302,C4143,In the Camp,36.401422,36.055985,8000,Earthquake
+2023-03-05T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,50,300,Idleb,Harim,Salqin,Azmarin,SY07,SY0703,SY070302,C4143,In the Village,36.401422,36.055985,5000,Earthquake
+2023-03-05T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,67,402,Aleppo,Jebel Saman,Atareb,Atareb,SY02,SY0200,SY020001,C1022,In the Village,36.828382,36.137884,6700,Earthquake
+2023-03-05T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,134,804,Idleb,Harim,Salqin,Azmarin,SY07,SY0703,SY070302,C4143,In the Village,36.401422,36.055985,13400,Earthquake
+2023-03-06T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,999,4995,Idleb,Harim,Salqin,Allani,SY07,SY0703,SY070302,C4142,In the Village,36.389057,36.160124,149850,Earthquake
+2023-03-06T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,113,565,Aleppo,Afrin,Jandairis,Ramadiyeh (Jandairis),SY02,SY0203,SY020302,C1422,In the Village,36.745457,36.399148,16950,Earthquake
+2023-03-06T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,250,1500,Idleb,Harim,Qourqeena,Barisha,SY07,SY0703,SY070304,C4164,In the Camp,36.636461,36.165243,25000,Earthquake
+2023-03-06T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,400,2400,Idleb,Jisr-Ash-Shugur,Janudiyeh,Foz - Zuf,SY07,SY0704,SY070403,C4263,In the Camp,36.234349,35.941613,40000,Earthquake
+2023-03-06T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,150,900,Idleb,Harim,Kafr Takharim,Kafr Takharim,SY07,SY0703,SY070303,C4157,In the Village,36.51543,36.116497,15000,Earthquake
+2023-03-06T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,158,948,Aleppo,Jebel Saman,Atareb,Atareb,SY02,SY0200,SY020001,C1022,In the Village,36.828382,36.137884,15800,Earthquake
+2023-03-06T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,250,1500,Idleb,Harim,Qourqeena,Qourqeena,SY07,SY0703,SY070304,C4174,In the Village,36.61267,36.138546,25000,Earthquake
+2023-03-06T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,300,1800,Idleb,Idleb,Idleb,Idleb,SY07,SY0700,SY070000,C3871,In the Village,36.635276,35.929008,30000,Earthquake
+2023-03-06T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,805,4830,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Village,36.723929,36.186604,80500,Earthquake
+2023-03-07T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,300,1500,Idleb,Idleb,Maaret Tamsrin,Hazano,SY07,SY0700,SY070005,C3944,In the Village,36.713577,36.089778,45000,Earthquake
+2023-03-07T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,83,415,Aleppo,Afrin,Jandairis,Sheikh Abel Rahman,SY02,SY0203,SY020302,C1419,In the Village,36.763546,36.431499,12450,Earthquake
+2023-03-07T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,43,250,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,6450,Earthquake
+2023-03-07T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,78,390,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,11700,Earthquake
+2023-03-07T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,207,1055,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,31050,Earthquake
+2023-03-07T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,26,130,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,3900,Earthquake
+2023-03-07T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,31,155,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,4650,Earthquake
+2023-03-07T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,118,590,Aleppo,Afrin,afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,17700,Earthquake
+2023-03-08T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,300,1500,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Village,36.69463,36.108118,45000,Earthquake
+2023-03-08T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,319,1595,Aleppo,Afrin,Sharan,Mashaala,SY02,SY0203,SY020304,C1520,In the Camp,36.929945,36.578595,47850,Earthquake
+2023-03-08T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,27,135,Aleppo,Afrin,Sharan,Tal Elosud,SY02,SY0203,SY020304,C1498,In the Camp,36.894931,36.554592,4050,Earthquake
+2023-03-08T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,68,325,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Camp,36.9416,36.621308,10200,Earthquake
+2023-03-09T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,92,460,Aleppo,Afrin,Sharan,Mashaala,SY02,SY0203,SY020304,C1520,In the Camp,36.929945,36.578595,13800,Earthquake
+2023-03-09T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,77,385,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Camp,36.9416,36.621308,11550,Earthquake
+2023-03-10T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,3000,15000,Idleb,Idleb,Idleb,Idleb,SY07,SY0700,SY070000,C3871,In the Village,36.635276,35.929008,450000,Earthquake
+2023-03-11T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,60,300,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,9000,Earthquake
+2023-03-12T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,150,750,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,22500,Earthquake
+2023-03-12T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,140,700,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,21000,Earthquake
+2023-03-12T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,190,950,Aleppo,Afrin,Bulbul,Bulbul,SY02,SY0203,SY020301,C1391,In the Camp,36.819347,36.769656,28500,Earthquake
+2023-03-12T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,28,140,Aleppo,Afrin,Sharan,Tal Elosud,SY02,SY0203,SY020304,C1498,In the Camp,36.894931,36.554592,4200,Earthquake
+2023-03-12T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,10,50,Aleppo,Afrin,Sharan,Qatmet Efrin,SY02,SY0203,SY020304,C1524,In the Camp,36.963116,36.587216,1500,Earthquake
+2023-03-12T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,72,360,Aleppo,Afrin,Sharan,Qatmet Efrin,SY02,SY0203,SY020304,C1524,In the Camp,36.963116,36.587216,10800,Earthquake
+2023-03-12T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,50,250,Aleppo,Afrin,Sharan,Qatmet Efrin,SY02,SY0203,SY020304,C1524,In the Camp,36.963116,36.587216,7500,Earthquake
+2023-03-12T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,2,10,Aleppo,Afrin,Sharan,Kafr Janna,SY02,SY0203,SY020304,C1518,In the Camp,36.949674,36.584073,300,Earthquake
+2023-03-12T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,149,745,Idleb,Harim,Dana,Atma,SY07,SY0703,SY070301,C4130,In the Village,36.689846,36.309771,22350,Earthquake
+2023-03-12T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,53,265,Idleb,Harim,Dana,Aqrabat (Dana),SY07,SY0703,SY070301,C4127,In the Village,36.70786,36.269945,7950,Earthquake
+2023-03-12T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,36,180,Idleb,Harim,Dana,Qah,SY07,SY0703,SY070301,C4131,In the Village,36.725165,36.296273,5400,Earthquake
+2023-03-13T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,75,375,Aleppo,Afrin,Afrin,Kafr Batra,SY02,SY0203,SY020300,C1388,In the Village,36.81369,36.462979,11250,Earthquake
+2023-03-13T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,75,375,Aleppo,Afrin,Afrin,Kawkabeh (Afrin),SY02,SY0203,SY020300,C1381,In the Village,36.836422,36.45174,11250,Earthquake
+2023-03-13T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,75,375,Aleppo,Afrin,Afrin,Sheikh Eldeir,SY02,SY0203,SY020300,C1359,In the Village,36.829344,36.368746,11250,Earthquake
+2023-03-13T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,60,300,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,9000,Earthquake
+2023-03-13T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,100,500,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,15000,Earthquake
+2023-03-13T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,150,750,Aleppo,Afrin,Ma'btali,Ma'btali,SY02,SY0203,SY020306,C1552,In the Village,36.736791,36.563264,22500,Earthquake
+2023-03-13T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,44,220,Aleppo,Afrin,Sharan,Kafr Janna,SY02,SY0203,SY020304,C1518,In the Camp,36.949674,36.584073,6600,Earthquake
+2023-03-13T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,130,650,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Camp,36.9416,36.621308,19500,Earthquake
+2023-03-13T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,60,300,Aleppo,Afrin,Sharan,Tal Elosud,SY02,SY0203,SY020304,C1498,In the Camp,36.894931,36.554592,9000,Earthquake
+2023-03-13T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,27,135,Aleppo,Afrin,Sharan,Tal Elosud,SY02,SY0203,SY020304,C1498,In the Camp,36.894931,36.554592,4050,Earthquake
+2023-03-13T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,10,50,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Camp,36.9416,36.621308,1500,Earthquake
+2023-03-13T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,102,550,Idleb,Harim,Salqin,Jakara,SY07,SY0703,SY070302,C6622,In the Village,36.389864,36.148555,15300,Earthquake
+2023-03-13T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,320,1600,Idleb,Harim,Armanaz,Milis,SY07,SY0703,SY070305,C4184,In the Village,36.487717,36.005116,48000,Earthquake
+2023-03-13T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,2000,10000,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,300000,Earthquake
+2023-03-13T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,190,950,Idleb,Harim,Salqin,Betiya,SY07,SY0703,SY070302,C4147,In the Village,36.388647,36.075831,28500,Earthquake
+2023-03-13T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,70,350,Idleb,Harim,Salqin,Hamra (Salqin),SY07,SY0703,SY070302,C6621,In the Village,36.393433,36.084542,10500,Earthquake
+2023-03-13T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,400,2000,Idleb,Harim,Salqin,Tellemar,SY07,SY0703,SY070302,C4148,In the Village,36.417177,36.057763,60000,Earthquake
+2023-03-14T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,170,850,Aleppo,Afrin,Sharan,Kafr Janna,SY02,SY0203,SY020304,C1518,In the Camp,36.949674,36.584073,25500,Earthquake
+2023-03-14T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,42,210,Aleppo,Afrin,Sharan,Kafr Janna,SY02,SY0203,SY020304,C1518,In the Camp,36.949674,36.584073,6300,Earthquake
+2023-03-14T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,75,375,Aleppo,Afrin,Sharan,Kafr Janna,SY02,SY0203,SY020304,C1518,In the Camp,36.949674,36.584073,11250,Earthquake
+2023-03-14T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,25,125,Aleppo,Afrin,Sharan,Qatireh,SY02,SY0203,SY020304,C1519,In the Camp,36.908661,36.625936,3750,Earthquake
+2023-03-14T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,25,125,Aleppo,Afrin,Sharan,Doha (Sharan),SY02,SY0203,SY020304,C1515,In the Camp,36.930648,36.595739,3750,Earthquake
+2023-03-14T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,110,550,Aleppo,Afrin,Sharan,Kafroum,SY02,SY0203,SY020304,C1522,In the Camp,36.859188,36.590325,16500,Earthquake
+2023-03-14T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,100,500,Idleb,Harim,Salqin,Jakara,SY07,SY0703,SY070302,C6622,In the Village,36.389864,36.148555,15000,Earthquake
+2023-03-14T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,260,1300,Idleb,Harim,Salqin,Delbiya,SY07,SY0703,SY070302,C4146,In the Village,36.400024,36.126835,39000,Earthquake
+2023-03-14T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,300,1500,Idleb,Harim,Salqin,Abu Talha,SY07,SY0703,SY070302,C4133,In the Village,36.436286,36.103967,45000,Earthquake
+2023-03-15T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,110,550,Aleppo,Afrin,Sharan,Doha (Sharan),SY02,SY0203,SY020304,C1515,In the Camp,36.930648,36.595739,16500,Earthquake
+2023-03-15T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,15,75,Aleppo,Afrin,Sharan,Mashaala,SY02,SY0203,SY020304,C1520,In the Camp,36.929945,36.578595,2250,Earthquake
+2023-03-15T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,55,275,Aleppo,Afrin,Sharan,Mashaala,SY02,SY0203,SY020304,C1520,In the Camp,36.929945,36.578595,8250,Earthquake
+2023-03-15T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,80,400,Aleppo,Afrin,Sharan,Bafelyun,SY02,SY0203,SY020304,C1507,In the Camp,36.981533,36.610993,12000,Earthquake
+2023-03-15T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,15,75,Aleppo,Afrin,Sharan,Sharan (Sharan),SY02,SY0203,SY020304,C1497,In the Camp,36.9416,36.621308,2250,Earthquake
+2023-03-16T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,65,325,Aleppo,Afrin,Sharan,Qatmet Efrin,SY02,SY0203,SY020304,C1524,In the Camp,36.963116,36.587216,9750,Earthquake
+2023-03-16T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,200,1000,Idleb,Harim,Salqin,Saidiyeh (Salqin),SY07,SY0703,SY070302,C4138,In the Village,36.423879,36.067475,30000,Earthquake
+2023-03-16T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,250,1250,Idleb,Harim,Salqin,Kafr Hind,SY07,SY0703,SY070302,C4151,In the Village,36.42982,36.082796,37500,Earthquake
+2023-03-20T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,13,65,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1950,Earthquake
+2023-03-20T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,6,30,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,900,Earthquake
+2023-03-20T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,21,105,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,3150,Earthquake
+2023-03-20T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,42,210,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,6300,Earthquake
+2023-03-20T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,18,90,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,2700,Earthquake
+2023-03-20T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,20,100,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,3000,Earthquake
+2023-03-20T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,10,50,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1500,Earthquake
+2023-03-20T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,20,100,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,3000,Earthquake
+2023-03-20T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,12,60,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1800,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,11,55,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1650,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,5,25,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,750,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,7,35,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1050,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,9,45,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1350,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,6,30,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,900,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,5,25,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,750,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,6,30,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,900,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,10,50,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1500,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,11,55,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1650,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,6,30,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,900,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,9,45,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1350,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,800,4000,Idleb,Harim,Kafr Takharim,Kafr Takharim,SY07,SY0703,SY070303,C4157,In the Village,36.51543,36.116497,120000,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,5,25,Aleppo,Afrin,Bulbul,Deir Hasan,SY02,SY0203,SY020301,C1399,In the Village,36.844318,36.662449,750,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,18,90,Aleppo,Afrin,Bulbul,Beylan,SY02,SY0203,SY020301,C8263,In the Village,36.868352,36.680065,2700,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,6,30,Aleppo,Afrin,Bulbul,Tafla,SY02,SY0203,SY020301,C1412,In the Village,36.821162,36.71764,900,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,15,75,Aleppo,Afrin,Bulbul,Qotan,SY02,SY0203,SY020301,C1415,In the Village,36.800224,36.71059,2250,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,12,60,Aleppo,Afrin,Bulbul,Abel,SY02,SY0203,SY020301,C1397,In the Village,36.846184,36.69364,1800,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,45,225,Aleppo,Afrin,Bulbul,Yabseh (Bulbul),SY02,SY0203,SY020301,C1401,In the Village,36.834377,36.686656,6750,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,17,85,Aleppo,Afrin,Bulbul,Qastal Miqdad,SY02,SY0203,SY020301,C1416,In the Village,36.858195,36.735095,2550,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,12,60,Aleppo,Afrin,Bulbul,Hajeb - Qash Ogli,SY02,SY0203,SY020301,C1402,In the Village,36.839372,36.716554,1800,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,5,25,Aleppo,Afrin,Bulbul,Hozan,SY02,SY0203,SY020301,C1417,In the Village,36.847787,36.719551,750,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,22,110,Aleppo,Afrin,Bulbul,Bulbul,SY02,SY0203,SY020301,C1391,In the Village,36.819347,36.769656,3300,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,42,210,Aleppo,Afrin,Bulbul,Bulbul,SY02,SY0203,SY020301,C1391,In the Village,36.819347,36.769656,6300,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,8,40,Aleppo,Afrin,Bulbul,Qorna,SY02,SY0203,SY020301,C1418,In the Village,36.841616,36.773013,1200,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,8,40,Aleppo,Afrin,Bulbul,Obudan,SY02,SY0203,SY020301,C1395,In the Village,36.912421,36.755138,1200,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,4,20,Aleppo,Afrin,Bulbul,Bulbul,SY02,SY0203,SY020301,C1391,In the Village,36.819347,36.769656,600,Earthquake
+2023-03-21T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,12,60,Aleppo,Afrin,Bulbul,Marwiyeh (Bulbul),SY02,SY0203,SY020301,C1414,In the Village,36.740273,36.754304,1800,Earthquake
+2023-03-21T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,52,260,Idleb,Harim,Dana,Selwa,SY07,SY0703,SY070301,C4123,In the Village,36.757238,36.30817,7800,Earthquake
+2023-03-21T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,116,580,Aleppo,Jebel Saman,Atareb,Babka,SY02,SY0200,SY020001,C1021,In the Camp,36.753668,36.14206,17400,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,3,15,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,450,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,6,30,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,900,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,2,10,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,300,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,13,65,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1950,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,1,5,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,150,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,11,55,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1650,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,2,10,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,300,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,10,50,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1500,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,3,15,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,450,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,9,45,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1350,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,60,300,Idleb,Idleb,Maaret Tamsrin,Ma'arrat Tamasrin,SY07,SY0700,SY070005,C3947,In the Village,36.672724,36.013896,9000,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,20,100,Idleb,Idleb,Maaret Tamsrin,Kafr Jales,SY07,SY0700,SY070005,C3945,In the Village,36.614218,35.975873,3000,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,10,50,Idleb,Idleb,Maaret Tamsrin,Bir Al Tayeb,SY07,SY0700,SY070005,C8438,In the Village,36.569887,36.009792,1500,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,10,50,Idleb,Idleb,Maaret Tamsrin,Bhora,SY07,SY0700,SY070005,C3937,In the Village,36.603157,35.996993,1500,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,3,15,Aleppo,Afrin,Bulbul,Bali - Koy,SY02,SY0203,SY020301,C1407,In the Village,36.835568,36.786385,450,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,75,375,Aleppo,Afrin,Bulbul,Bulbul,SY02,SY0203,SY020301,C1391,In the Village,36.819347,36.769656,11250,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,12,60,Aleppo,Afrin,Bulbul,Zfnek,SY02,SY0203,SY020301,C6396,In the Village,36.789733,36.686444,1800,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,12,60,Aleppo,Afrin,Bulbul,Khalil - Khleilak,SY02,SY0203,SY020301,C1404,In the Village,36.806778,36.694192,1800,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,15,75,Aleppo,Afrin,Bulbul,Sagher - Sagher Oba Si,SY02,SY0203,SY020301,C1405,In the Village,36.780396,36.702701,2250,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,32,160,Aleppo,Afrin,Bulbul,Bulbul,SY02,SY0203,SY020301,C1391,In the Village,36.819347,36.769656,4800,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,19,95,Aleppo,Afrin,Bulbul,Dik,SY02,SY0203,SY020301,C1398,In the Village,36.771902,36.68495,2850,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,10,50,Aleppo,Afrin,Bulbul,Ashani,SY02,SY0203,SY020301,C1411,In the Village,36.784258,36.695954,1500,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,6,30,Aleppo,Afrin,Bulbul,Sheikh Khoraz,SY02,SY0203,SY020301,C1410,In the Village,36.889071,36.733497,900,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,10,50,Aleppo,Afrin,Bulbul,Ali Jaru,SY02,SY0203,SY020301,C8286,In the Village,36.871431,36.743163,1500,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,6,30,Aleppo,Afrin,Bulbul,Hafatro,SY02,SY0203,SY020301,C8289,In the Village,36.910597,36.750149,900,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,6,30,Aleppo,Afrin,Bulbul,Za'ra,SY02,SY0203,SY020301,C1406,In the Village,36.803246,36.785448,900,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,4,20,Aleppo,Afrin,Bulbul,Ali Elatrash - Olikar,SY02,SY0203,SY020301,C1408,In the Village,36.783877,36.790231,600,Earthquake
+2023-03-22T00:00:00Z,GOAL (GOAL),GOAL,CBRTWG-004,Completed,USD,150,40,200,Aleppo,Afrin,Bulbul,Khader,SY02,SY0203,SY020301,C1394,In the Village,36.794874,36.746339999999996,6000,Earthquake
+2023-03-22T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,97,485,Idleb,Harim,Dana,Deir Hassan - Darhashan,SY07,SY0703,SY070301,C4129,In the Village,36.762754,36.233725,14550,Earthquake
+2023-03-22T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,250,1250,Idleb,Harim,Dana,Aqrabat (Dana),SY07,SY0703,SY070301,C4127,In the Village,36.70786,36.269945,37500,Earthquake
+2023-04-03T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,47,235,Aleppo,Jebel Saman,Atareb,Babka,SY02,SY0200,SY020001,C1021,In the Camp,36.753668,36.14206,7050,Earthquake
+2023-04-03T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,40,195,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,6000,Earthquake
+2023-04-03T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,10,50,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,1500,Earthquake
+2023-04-03T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,17,85,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,2550,Earthquake
+2023-04-03T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,10,20,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,1500,Earthquake
+2023-03-23T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,141,705,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,21150,Earthquake
+2023-04-03T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,9,45,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,1350,Earthquake
+2023-04-03T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,17,85,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,2550,Earthquake
+2023-04-03T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,52,255,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,7800,Earthquake
+2023-04-03T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,1,5,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,150,Earthquake
+2023-04-03T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,10,50,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,1500,Earthquake
+2023-03-24T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,10,50,Idleb,Jisr-Ash-Shugur,Darkosh,Darkosh,SY07,SY0704,SY070402,C4252,In the Village,36.393373,35.992443,1500,Earthquake
+2023-03-24T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,10,50,Idleb,Jisr-Ash-Shugur,Darkosh,Jamiliya (Darkosh),SY07,SY0704,SY070402,C4241,In the Village,36.336876,35.98021,1500,Earthquake
+2023-03-24T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,10,50,Idleb,Jisr-Ash-Shugur,Darkosh,Dorriyeh,SY07,SY0704,SY070402,C4249,In the Village,36.309702,35.993141,1500,Earthquake
+2023-03-24T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Completed,USD,150,10,50,Idleb,Jisr-Ash-Shugur,Darkosh,Andnaniyeh - Farjein,SY07,SY0704,SY070402,C4248,In the Village,36.299866,35.977187,1500,Earthquake
+2023-03-25T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,43,215,Idleb,Idleb,Maaret Tamsrin,Haranbush,SY07,SY0700,SY070005,C3943,In the Camp,36.638895,36.074335,4300,Flood
+2023-03-25T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,67,335,Idleb,Idleb,Maaret Tamsrin,Haranbush,SY07,SY0700,SY070005,C3943,In the Camp,36.638895,36.074335,6700,Flood
+2023-03-25T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,86,430,Idleb,Idleb,Maaret Tamsrin,Haranbush,SY07,SY0700,SY070005,C3943,In the Camp,36.638895,36.074335,8600,Flood
+2023-03-25T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,120,600,Idleb,Idleb,Maaret Tamsrin,Haranbush,SY07,SY0700,SY070005,C3943,In the Camp,36.638895,36.074335,12000,Flood
+2023-03-25T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,108,540,Idleb,Idleb,Maaret Tamsrin,Haranbush,SY07,SY0700,SY070005,C3943,In the Camp,36.638895,36.074335,10800,Flood
+2023-03-25T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,100,500,Aleppo,Al Bab,Al Bab,Bazagha,SY02,SY0202,SY020200,C1188,In the Village,37.5661,36.383375,15000,Earthquake
+2023-03-25T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,107,535,Aleppo,Al Bab,Al Bab,Qabasin,SY02,SY0202,SY020200,C1209,In the Village,37.566282,36.433731,16050,Earthquake
+2023-03-25T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,53,265,Aleppo,A'zaz,Mare',Mare',SY02,SY0204,SY020403,C1643,In the Village,37.196486,36.482688,7950,Earthquake
+2023-03-25T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Completed,USD,150,212,1060,Aleppo,Jarablus,Jarablus,Jarablus,SY02,SY0208,SY020800,C2227,In the Village,38.009919,36.814478,31800,Earthquake
+2023-03-26T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,127,635,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,19050,Earthquake
+2023-04-04T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,30,80,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,4500,Earthquake
+2023-04-04T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,20,60,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,3000,Earthquake
+2023-04-04T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,14,65,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,2100,Earthquake
+2023-04-04T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,12,60,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,1800,Earthquake
+2023-04-04T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,9,45,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,1350,Earthquake
+2023-04-04T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,17,85,Idleb,Harim,Dana,Aqrabat (Dana),SY07,SY0703,SY070301,C4127,In the Camp,36.70786,36.269945,2550,Earthquake
+2023-04-04T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,8,40,Idleb,Harim,Dana,Aqrabat (Dana),SY07,SY0703,SY070301,C4127,In the Camp,36.70786,36.269945,1200,Earthquake
+2023-04-04T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,10,50,Idleb,Harim,Dana,Aqrabat (Dana),SY07,SY0703,SY070301,C4127,In the Camp,36.70786,36.269945,1500,Earthquake
+2023-03-27T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,24,120,Aleppo,Afrin,Jandairis,Upper Diwan,SY02,SY0203,SY020302,C1431,In the Village,36.699755,36.342389,2400,Earthquake
+2023-03-27T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,10,50,Aleppo,Afrin,Jandairis,Dukan,SY02,SY0203,SY020302,C8130,In the Village,36.639123,36.341565,1000,Earthquake
+2023-03-27T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,48,240,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,4800,Earthquake
+2023-03-27T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,12,60,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,1200,Earthquake
+2023-03-27T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,21,105,Aleppo,Afrin,Jandairis,Kordan,SY02,SY0203,SY020302,C1445,In the Village,36.675934,36.470447,2100,Earthquake
+2023-03-27T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,12,60,Aleppo,Afrin,Jandairis,Western Khaltan,SY02,SY0203,SY020302,C1436,In the Village,36.70773,36.480833,1200,Earthquake
+2023-03-27T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,97,485,Aleppo,Afrin,Jandairis,Haji Hasanli,SY02,SY0203,SY020302,C8184,In the Village,36.653081,36.484728,9700,Earthquake
+2023-03-27T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,35,175,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,3500,Earthquake
+2023-03-27T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,23,115,Aleppo,Afrin,Jandairis,Qila,SY02,SY0203,SY020302,C8160,In the Village,36.716373,36.418083,2300,Earthquake
+2023-03-27T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,46,230,Aleppo,Afrin,Jandairis,Burj Kmush,SY02,SY0203,SY020302,C1428,In the Village,36.711932,36.429095,4600,Earthquake
+2023-03-27T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,26,130,Aleppo,Afrin,Jandairis,Zanda,SY02,SY0203,SY020302,C1438,In the Village,36.694587,36.418609,2600,Earthquake
+2023-03-29T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,43,215,Aleppo,Afrin,Jandairis,Tal Hamo,SY02,SY0203,SY020302,C1430,In the Village,36.771669,36.41732,4300,Earthquake
+2023-03-29T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,16,80,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,1600,Earthquake
+2023-03-29T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Completed,USD,100,59,295,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,5900,Earthquake
+2023-03-30T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,47,235,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,4700,Earthquake
+2023-03-30T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,29,145,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,2900,Earthquake
+2023-03-30T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,157,785,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,15700,Earthquake
+2023-03-30T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,93,465,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,9300,Earthquake
+2023-03-30T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,10,50,Aleppo,Afrin,Afrin,Bteita,SY02,SY0203,SY020300,C1372,In the Village,36.836325,36.460896,1000,Earthquake
+2023-03-30T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,10,50,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,1000,Earthquake
+2023-03-30T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,5,25,Aleppo,Afrin,Afrin,Eskan,SY02,SY0203,SY020300,C1352,In the Village,36.807785,36.353492,500,Earthquake
+2023-03-30T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,25,125,Aleppo,Afrin,Afrin,Kafr Batra,SY02,SY0203,SY020300,C1388,In the Village,36.81369,36.462979,2500,Earthquake
+2023-03-30T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,35,175,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,3500,Earthquake
+2023-03-30T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,1100,5500,Aleppo,Al Bab,Al Bab,Al Bab,SY02,SY0202,SY020200,C1202,In the Village,37.514925,36.369722,165000,Earthquake
+2023-03-30T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,550,2750,Aleppo,Al Bab,Al Bab,Bazagha,SY02,SY0202,SY020200,C1188,In the Village,37.5661,36.383375,82500,Earthquake
+2023-03-30T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,550,2750,Aleppo,Al Bab,Al Bab,Qabasin,SY02,SY0202,SY020200,C1209,In the Village,37.566282,36.433731,82500,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,51,255,Aleppo,Afrin,Afrin,Basuta,SY02,SY0203,SY020300,C1376,In the Village,36.870973,36.431946,5100,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,30,150,Aleppo,Afrin,Afrin,Sheikh Eldeir,SY02,SY0203,SY020300,C1359,In the Village,36.829344,36.368746,3000,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,2,10,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,200,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,3,15,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,300,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,3,15,Aleppo,Afrin,Afrin,Kimar,SY02,SY0203,SY020300,C1382,In the Village,36.896222,36.423736,300,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,30,150,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,3000,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,13,65,Aleppo,Afrin,Afrin,Basufan,SY02,SY0203,SY020300,C1374,In the Village,36.873622,36.341079,1300,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,57,285,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,5700,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,25,125,Aleppo,Afrin,Afrin,Mreimin Afrin,SY02,SY0203,SY020300,C1386,In the Village,36.949602,36.530436,2500,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,85,425,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,8500,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,15,75,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,1500,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,10,50,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,1000,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,40,200,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,4000,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,65,325,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,6500,Earthquake
+2023-04-01T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,45,225,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,4500,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,46,230,Idleb,Harim,Dana,Burdaqly,SY07,SY0703,SY070301,C6693,In the Camp,36.73179,36.21333,6900,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,1,5,Idleb,Harim,Dana,Deir Hassan - Darhashan,SY07,SY0703,SY070301,C4129,In the Camp,36.762754,36.233725,150,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,15,75,Idleb,Harim,Qourqeena,Ras Elhisn,SY07,SY0703,SY070304,C4167,In the Camp,36.646584,36.196478,2250,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,14,70,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,2100,Earthquake
+2023-04-01T00:00:00Z,Welthungerhilfe (WHH),WHH,CBRTWG-022,Planned,USD,150,444,2220,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,66600,Earthquake
+2023-04-01T00:00:00Z,Welthungerhilfe (WHH),WHH,CBRTWG-022,Planned,USD,150,131,655,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Village,37.04316,36.584872,19650,Earthquake
+2023-04-01T00:00:00Z,Welthungerhilfe (WHH),WHH,CBRTWG-022,Planned,USD,150,250,1250,Idleb,Idleb,Bennsh,Bennsh,SY07,SY0700,SY070002,C3904,In the Village,36.714159,35.956659,37500,Earthquake
+2023-04-01T00:00:00Z,Welthungerhilfe (WHH),WHH,CBRTWG-022,Planned,USD,150,1471,705,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,220650,Earthquake
+2023-04-02T00:00:00Z,Mercy-USA for Aid and Development (MUSA),Mercy-USA,CBRTWG-035,Planned,USD,100,256,1280,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,25600,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,14,70,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,2100,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,12,60,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,1800,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,72,360,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,10800,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,14,70,Idleb,Harim,Dana,Kafr Deryan,SY07,SY0703,SY070301,C4132,In the Camp,36.666375,36.174632,2100,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,31,155,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,4650,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,13,65,Idleb,Harim,Dana,Kafr Deryan,SY07,SY0703,SY070301,C4132,In the Camp,36.666375,36.174632,1950,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,13,65,Idleb,Harim,Dana,Kafr Deryan,SY07,SY0703,SY070301,C4132,In the Camp,36.666375,36.174632,1950,Earthquake
+2023-03-28T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,55,275,Idleb,Harim,Dana,Kafr Deryan,SY07,SY0703,SY070301,C4132,In the Camp,36.666375,36.174632,8250,Earthquake
+2023-03-27T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,80,400,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,12000,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,15,75,Idleb,Harim,Dana,Burdaqly,SY07,SY0703,SY070301,C6693,In the Camp,36.73179,36.21333,2250,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,27,135,Idleb,Harim,Dana,Babisqa,SY07,SY0703,SY070301,C6755,In the Camp,36.689505,36.216388,4050,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,19,95,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,2850,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,14,70,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,2100,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,13,65,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,1950,Earthquake
+2023-03-27T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,55,275,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,8250,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,17,85,Idleb,Harim,Dana,Burdaqly,SY07,SY0703,SY070301,C6693,In the Camp,36.73179,36.21333,2550,Earthquake
+2023-04-02T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,39,195,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,5850,Earthquake
+2023-04-05T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,175,530,2560,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,92750,Earthquake
+2023-04-05T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,175,150,750,Idleb,Harim,Salqin,Al balat,NA,NA,NA,NA,In the Village,NA,NA,26250,Earthquake
+2023-04-05T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,175,300,1500,Idleb,Jisr-Ash-Shugur,Janudiyeh,Janudiyeh,SY07,SY0704,SY070403,C4255,In the Village,36.291357,35.882903,52500,Earthquake
+2023-04-05T00:00:00Z,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,175,250,1250,Idleb,Jisr-Ash-Shugur,Janudiyeh,Yaqubiyeh,SY07,SY0704,SY070403,C4256,In the Village,36.314485,35.921929,43750,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,120,600,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,18000,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,70,350,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,10500,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,100,500,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,15000,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,48,240,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,7200,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,105,525,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,15750,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,128,640,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,19200,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,30,150,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,4500,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,44,220,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,6600,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,57,285,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,8550,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,75,375,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,11250,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,60,300,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,9000,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,75,375,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,11250,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,50,250,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,7500,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,57,285,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,8550,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,40,200,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,6000,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,100,500,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,15000,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,70,350,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,10500,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,275,1375,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,41250,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,218,1090,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,32700,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,137,685,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,20550,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,113,565,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,16950,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,100,500,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,15000,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,80,400,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,12000,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,140,700,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,21000,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,57,285,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,8550,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,36,180,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,5400,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,25,125,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,3750,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,60,300,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,9000,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,85,425,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,12750,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,250,1250,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Camp,37.04316,36.584872,37500,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,105,525,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Camp,37.04316,36.584872,15750,Earthquake
+2023-04-05T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Planned,USD,150,90,450,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Camp,37.04316,36.584872,13500,Earthquake
+2023-04-15T00:00:00Z,Ghiras Al Nahda (GAN),GAN,CBRTWG-019,Planned,USD,150,300,1500,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Village,36.865523,36.511094,45000,Earthquake
+2023-04-15T00:00:00Z,Ghiras Al Nahda (GAN),GAN,CBRTWG-019,Planned,USD,150,310,1550,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,46500,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,46,230,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,6900,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,59,295,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,8850,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,13,65,Idleb,Idleb,Maaret Tamsrin,Hazano,SY07,SY0700,SY070005,C3944,In the Camp,36.713577,36.089778,1950,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,116,580,Idleb,Idleb,Maaret Tamsrin,Hazano,SY07,SY0700,SY070005,C3944,In the Camp,36.713577,36.089778,17400,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,29,145,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,4350,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,26,130,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,3900,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,22,110,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,3300,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,21,105,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,3150,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,15,75,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,2250,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,15,75,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,2250,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,14,70,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,2100,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,13,65,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1950,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,12,60,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1800,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,12,60,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1800,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,10,50,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1500,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,10,50,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1500,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,10,50,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1500,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,74,370,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,11100,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,21,105,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,3150,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,11,55,Idleb,Idleb,Maaret Tamsrin,Kelly,SY07,SY0700,SY070005,C3949,In the Camp,36.69463,36.108118,1650,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,26,130,Idleb,Harim,Dana,Babisqa,SY07,SY0703,SY070301,C6755,In the Camp,36.689505,36.216388,3900,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,15,75,Idleb,Harim,Dana,Babisqa,SY07,SY0703,SY070301,C6755,In the Camp,36.689505,36.216388,2250,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,15,75,Idleb,Harim,Dana,Babisqa,SY07,SY0703,SY070301,C6755,In the Camp,36.689505,36.216388,2250,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,11,55,Idleb,Harim,Dana,Babisqa,SY07,SY0703,SY070301,C6755,In the Camp,36.689505,36.216388,1650,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,11,55,Idleb,Harim,Dana,Babisqa,SY07,SY0703,SY070301,C6755,In the Camp,36.689505,36.216388,1650,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,12,60,Idleb,Harim,Dana,Babisqa,SY07,SY0703,SY070301,C6755,In the Camp,36.689505,36.216388,1800,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,11,55,Idleb,Harim,Dana,Babisqa,SY07,SY0703,SY070301,C6755,In the Camp,36.689505,36.216388,1650,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,42,210,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,6300,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,38,190,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,5700,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,24,120,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,3600,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,19,95,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,2850,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,17,85,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,2550,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,15,75,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,2250,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,11,55,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,1650,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,11,55,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,1650,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,10,50,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,1500,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,17,85,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,2550,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,43,215,Idleb,Harim,Dana,Kafr Deryan,SY07,SY0703,SY070301,C4132,In the Camp,36.666375,36.174632,6450,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,13,65,Idleb,Harim,Dana,Kafr Deryan,SY07,SY0703,SY070301,C4132,In the Camp,36.666375,36.174632,1950,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,12,60,Idleb,Harim,Dana,Kafr Deryan,SY07,SY0703,SY070301,C4132,In the Camp,36.666375,36.174632,1800,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,13,65,Idleb,Harim,Qourqeena,Kafr Aruq,SY07,SY0703,SY070304,C4172,In the Camp,36.655729,36.121068,1950,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,35,175,Aleppo,Jebel Saman,Atareb,Babka,SY02,SY0200,SY020001,C1021,In the Camp,36.753668,36.14206,5250,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,27,135,Aleppo,Jebel Saman,Atareb,Babka,SY02,SY0200,SY020001,C1021,In the Camp,36.753668,36.14206,4050,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,24,120,Aleppo,Jebel Saman,Atareb,Babka,SY02,SY0200,SY020001,C1021,In the Camp,36.753668,36.14206,3600,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,29,145,Aleppo,Jebel Saman,Atareb,Babka,SY02,SY0200,SY020001,C1021,In the Camp,36.753668,36.14206,4350,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,26,130,Aleppo,Jebel Saman,Atareb,Babka,SY02,SY0200,SY020001,C1021,In the Camp,36.753668,36.14206,3900,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,23,115,Aleppo,Jebel Saman,Atareb,Babka,SY02,SY0200,SY020001,C1021,In the Camp,36.753668,36.14206,3450,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,20,100,Aleppo,Jebel Saman,Atareb,Babka,SY02,SY0200,SY020001,C1021,In the Camp,36.753668,36.14206,3000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,10,50,Aleppo,Jebel Saman,Atareb,Babka,SY02,SY0200,SY020001,C1021,In the Camp,36.753668,36.14206,1500,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,140,700,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,21000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,20,100,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,3000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,65,325,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,9750,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,40,200,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,6000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,70,350,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,10500,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,68,340,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,10200,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,50,250,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,7500,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,35,175,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,5250,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,150,750,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,22500,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,100,500,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,15000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,100,500,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,15000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,15,75,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,2250,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,60,300,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,9000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,40,200,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,6000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,70,350,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,10500,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,500,2500,Idleb,Idleb,Idleb,Idleb,SY07,SY0700,SY070000,C3871,In the Village,36.635276,35.929008,75000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,260,1300,Idleb,Idleb,Bennsh,Bennsh,SY07,SY0700,SY070002,C3904,In the Village,36.714159,35.956659,39000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,145,725,Idleb,Idleb,Bennsh,Bennsh,SY07,SY0700,SY070002,C3904,In the Village,36.714159,35.956659,21750,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,35,175,Idleb,Idleb,Idleb,Idleb,SY07,SY0700,SY070000,C3871,In the Village,36.635276,35.929008,5250,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,45,225,Idleb,Idleb,Idleb,Idleb,SY07,SY0700,SY070000,C3871,In the Village,36.635276,35.929008,6750,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,59,295,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,8850,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,61,305,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,9150,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,55,275,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,8250,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,173,865,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,25950,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,180,900,Aleppo,Afrin,Jandairis,Hmlak-Hmelek,SY02,SY0203,SY020302,C6397,In the Village,36.721556,36.398836,27000,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,160,800,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,24000,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,135,675,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,20250,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,101,505,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,15150,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,260,1300,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,39000,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,200,1000,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,30000,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,70,350,Aleppo,Afrin,Jandairis,Mhamadia,SY02,SY0203,SY020302,C8135,In the Village,36.681836,36.347197,10500,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,48,240,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,7200,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,146,730,Aleppo,Afrin,Ma'btali,Ma'btali,SY02,SY0203,SY020306,C1552,In the Village,36.736791,36.563264,21900,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,140,700,Aleppo,Afrin,Ma'btali,Ma'btali,SY02,SY0203,SY020306,C1552,In the Village,36.736791,36.563264,21000,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,140,700,Aleppo,Afrin,Ma'btali,Ma'btali,SY02,SY0203,SY020306,C1552,In the Village,36.736791,36.563264,21000,Earthquake
+NA,Uluslararasi Insani Yardimlasma Dernegi (IYD),IYD,CBRTWG-013,Planned,USD,150,100,500,Aleppo,Afrin,Ma'btali,Ma'btali,SY02,SY0203,SY020306,C1552,In the Village,36.736791,36.563264,15000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,132,660,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,19800,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,113,565,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,16950,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,273,1365,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,40950,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,82,410,Aleppo,Afrin,Jandairis,Abu Ka'ab,SY02,SY0203,SY020302,C8151,In the Village,36.740602,36.386379,12300,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,129,645,Aleppo,Afrin,Jandairis,Baflur,SY02,SY0203,SY020302,C8156,In the Village,36.665505,36.398592,19350,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,65,325,Aleppo,Afrin,Jandairis,Jalaq (Jandairis),SY02,SY0203,SY020302,C1425,In the Village,36.745385,36.475595,9750,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,195,975,Aleppo,Afrin,Jandairis,Hajilar,SY02,SY0203,SY020302,C8150,In the Village,36.71882,36.385784,29250,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,42,210,Aleppo,Afrin,Jandairis,Freiriyeh,SY02,SY0203,SY020302,C1446,In the Village,36.770773,36.399595,6300,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,24,120,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,3600,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,190,950,Aleppo,Afrin,Jandairis,Kafr Safra,SY02,SY0203,SY020302,C1449,In the Camp,36.66183,36.427593,28500,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,40,200,Aleppo,Afrin,Jandairis,Lower-Marwana,SY02,SY0203,SY020302,C6399,In the Village,36.595009,36.420437,6000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,180,900,Aleppo,Afrin,Jandairis,Hikageh,SY02,SY0203,SY020302,C8166,In the Village,36.601585,36.435708,27000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,500,2500,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Village,37.04316,36.584872,75000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,158,790,Aleppo,Al Bab,Al Bab,Bazagha,SY02,SY0202,SY020200,C1188,In the Camp,37.5661,36.383375,23700,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,250,1250,Aleppo,Al Bab,Al Bab,Qabasin,SY02,SY0202,SY020200,C1209,In the Camp,37.566282,36.433731,37500,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,660,3300,Aleppo,Al Bab,Al Bab,Shbiran,SY02,SY0202,SY020200,C8196,In the Camp,37.511107,36.525057,99000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,1300,6500,Aleppo,Al Bab,Al Bab,Al Bab,SY02,SY0202,SY020200,C1202,In the Village,37.514925,36.369722,195000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,175,875,Aleppo,Al Bab,Al Bab,Al Bab,SY02,SY0202,SY020200,C1202,In the Village,37.514925,36.369722,26250,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,125,625,Aleppo,Al Bab,Al Bab,Al Bab,SY02,SY0202,SY020200,C1202,In the Village,37.514925,36.369722,18750,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,250,1250,Aleppo,Al Bab,Al Bab,Al Bab,SY02,SY0202,SY020200,C1202,In the Village,37.514925,36.369722,37500,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,22,110,Aleppo,Al Bab,Al Bab,Al Bab,SY02,SY0202,SY020200,C1202,In the Camp,37.514925,36.369722,3300,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,300,1500,Aleppo,Al Bab,Al Bab,Al Bab,SY02,SY0202,SY020200,C1202,In the Camp,37.514925,36.369722,45000,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,168,840,Aleppo,Al Bab,Al Bab,Al Bab,SY02,SY0202,SY020200,C1202,In the Camp,37.514925,36.369722,25200,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,35,175,Aleppo,Al Bab,Al Bab,Al Bab,SY02,SY0202,SY020200,C1202,In the Camp,37.514925,36.369722,5250,Earthquake
+NA,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,700,3500,Aleppo,Al Bab,A'rima,Barshaya,SY02,SY0202,SY020206,C1346,In the Camp,37.591775,36.485463,105000,Earthquake
+NA,Norwegian Refugee Council (NRC),NRC,CBRTWG-032,Planned,USD,150,500,2500,Idleb,Idleb,Teftnaz,Teftnaz,SY07,SY0700,SY070004,C3932,In the Village,36.783251,35.997737,75000,Earthquake
+NA,Norwegian Refugee Council (NRC),NRC,CBRTWG-032,Planned,USD,150,500,2500,Idleb,Idleb,Bennsh,Bennsh,SY07,SY0700,SY070002,C3904,In the Village,36.714159,35.956659,75000,Earthquake
+NA,People in Need (PIN),PIN,CBRTWG-008,Planned,USD,150,225,1125,Idleb,Ariha,Mhambal,Ora Qabli - Edwan,SY07,SY0705,SY070502,C4312,In the Camp,36.503012,35.869708,33750,Flood
+NA,People in Need (PIN),PIN,CBRTWG-008,Planned,USD,150,65,325,Idleb,Ariha,Ariha,Ariha,SY07,SY0705,SY070500,C4278,In the Camp,36.610185,35.81396,9750,Flood
+NA,People in Need (PIN),PIN,CBRTWG-008,Planned,USD,150,375,1875,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Village,37.04316,36.584872,56250,Earthquake
+NA,People in Need (PIN),PIN,CBRTWG-008,Planned,USD,150,98,1470,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Village,37.04316,36.584872,14700,Earthquake
+NA,People in Need (PIN),PIN,CBRTWG-008,Planned,USD,150,86,430,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Village,37.04316,36.584872,12900,Earthquake
+NA,People in Need (PIN),PIN,CBRTWG-008,Planned,USD,150,32,160,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Village,37.04316,36.584872,4800,Earthquake
+NA,People in Need (PIN),PIN,CBRTWG-008,Planned,USD,150,36,165,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Village,37.04316,36.584872,5400,Earthquake
+NA,People in Need (PIN),PIN,CBRTWG-008,Planned,USD,150,397,1985,Aleppo,Al Bab,Al Bab,Al Bab,SY02,SY0202,SY020200,C1202,In the Village,37.514925,36.369722,59550,Earthquake
+NA,People in Need (PIN),PIN,CBRTWG-008,Planned,USD,150,302,1510,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Village,37.04316,36.584872,45300,Earthquake
+2023-04-01T00:00:00Z,Syria Relief,SR,CBRTWG-011,Planned,USD,150,217,1085,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,32550,Earthquake
+2023-04-02T00:00:00Z,Syria Relief,SR,CBRTWG-011,Planned,USD,150,302,1510,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,45300,Earthquake
+2023-04-02T00:00:00Z,Syria Relief,SR,CBRTWG-011,Planned,USD,150,400,2000,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,60000,Earthquake
+2023-04-04T00:00:00Z,Syria Relief,SR,CBRTWG-011,Planned,USD,150,350,1750,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Camp,37.04316,36.584872,52500,Earthquake
+2023-04-04T00:00:00Z,Syria Relief,SR,CBRTWG-011,Planned,USD,150,150,750,Aleppo,A'zaz,A'zaz,Azaz,SY02,SY0204,SY020400,C1564,In the Camp,37.04316,36.584872,22500,Earthquake
+2023-04-05T00:00:00Z,Syria Relief,SR,CBRTWG-011,Planned,USD,150,169,845,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,25350,Earthquake
+2023-04-05T00:00:00Z,Syria Relief,SR,CBRTWG-011,Planned,USD,150,153,765,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,22950,Earthquake
+2023-04-06T00:00:00Z,Syria Relief,SR,CBRTWG-011,Planned,USD,150,367,1835,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Camp,36.453694,36.139048,55050,Earthquake
+2023-04-08T00:00:00Z,Syria Relief,SR,CBRTWG-011,Planned,USD,150,260,1300,Aleppo,Jebel Saman,Daret Azza,Daret Azza,SY02,SY0200,SY020004,C1139,In the Camp,36.851091,36.285021,39000,Earthquake
+2023-04-10T00:00:00Z,Syria Relief,SR,CBRTWG-011,Planned,USD,150,180,900,Aleppo,Jebel Saman,Atareb,Jeineh,SY02,SY0200,SY020001,C1032,In the Camp,36.801449,36.117087,27000,Earthquake
+2023-04-04T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Planned,USD,150,375,1875,Aleppo,A'zaz,Azaz,Ewaa Azaz2-Near Of GOAL,NA,NA,NA,NA,In the Camp,NA,NA,56250,Earthquake
+2023-04-04T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Planned,NA,150,98,490,Aleppo,A'zaz,Azaz,Eqraa center,NA,NA,NA,NA,In the Camp,NA,NA,14700,Earthquake
+2023-04-04T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Planned,NA,150,86,430,Aleppo,A'zaz,Azaz,Ewaa Jdida road Azaz,NA,NA,NA,NA,In the Camp,NA,NA,12900,Earthquake
+2023-04-04T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Planned,NA,150,32,160,Aleppo,A'zaz,Azaz,Ewaa'a Kafra,NA,NA,NA,NA,In the Camp,NA,NA,4800,Earthquake
+2023-04-04T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Planned,NA,150,36,180,Aleppo,A'zaz,Azaz,Ewaa Bashak Shaheir,NA,NA,NA,NA,In the Camp,NA,NA,5400,Earthquake
+2023-04-04T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Planned,NA,150,397,1985,Aleppo,A'zaz,Azaz,Al Bab city,NA,NA,NA,NA,In the Camp,NA,NA,59550,Earthquake
+2023-04-04T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Planned,NA,150,302,1510,Aleppo,A'zaz,Azaz,Sejjo,NA,NA,NA,NA,In the Camp,NA,NA,45300,Earthquake
+2023-03-29T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,4,20,Idleb,Harim,Dana,Deir Hassan - Darhashan,SY07,SY0703,SY070301,C4129,In the Village,36.762754,36.233725,600,Earthquake
+2023-03-29T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,166,830,Idleb,Harim,Dana,Aqrabat (Dana),SY07,SY0703,SY070301,C4127,In the Village,36.70786,36.269945,24900,Earthquake
+2023-03-30T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,18,90,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Camp,36.76958,36.213601,2700,Earthquake
+2023-03-30T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,8,40,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,1200,Earthquake
+2023-03-30T00:00:00Z,Ihsan for Relief and Development,IhsanRD,CBRTWG-005,Completed,USD,150,3,15,Idleb,Harim,Dana,Aqrabat (Dana),SY07,SY0703,SY070301,C4127,In the Village,36.70786,36.269945,450,Earthquake
+2023-04-04T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Planned,USD,150,25,125,Idleb,Jisr-Ash-Shugur,Darkosh,Deir Othman,SY07,SY0704,SY070402,C4239,In the Village,36.3196,35.974435,3750,Earthquake
+2023-04-04T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Planned,USD,150,86,430,Idleb,Idleb,Sijer - Bqesemtoh/سيجر - بقسمته,Al Fidaa 2,NA,NA,NA,NA,In the Camp,NA,NA,12900,Earthquake
+2023-04-04T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Planned,USD,150,59,295,Idleb,Idleb,Sijer - Bqesemtoh/سيجر - بقسمته,Al fidaa 1,NA,NA,NA,NA,In the Camp,NA,NA,8850,Earthquake
+2023-04-04T00:00:00Z,Agency for Technical Cooperation and Development (ACTED),ACTED,CBRTWG-031,Planned,USD,150,22,110,Idleb,Idleb,Sijer - Bqesemtoh/سيجر - بقسمته,Al Sanma,NA,NA,NA,NA,In the Village,NA,NA,3300,Earthquake
+2023-02-15T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,250,1250,Aleppo,Jarablus,Jarablus,Jarablus,SY02,SY0208,SY020800,C2227,In the Village,38.009919,36.814478,37500,Earthquake
+2023-02-15T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,1500,7500,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Village,36.689563,36.392488,225000,Earthquake
+2023-02-21T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,130,2000,10000,Idleb,Harim,Dana,Atma,SY07,SY0703,SY070301,C4130,In the Village,36.689846,36.309771,260000,Earthquake
+2023-02-21T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Planned,USD,150,550,2750,Idleb,Harim,Harim,Harim,SY07,SY0703,SY070300,C4115,In the Village,36.520746,36.212594,82500,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,44,220,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,6600,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,108,540,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,16200,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,156,780,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,23400,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,91,455,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,13650,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,84,420,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,12600,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,71,355,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,10650,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,77,385,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,11550,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,49,245,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,7350,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,30,150,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,4500,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,42,210,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,6300,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,29,145,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,4350,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,13,65,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,1950,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,21,105,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,3150,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,19,95,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,2850,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,23,115,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,3450,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,69,345,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,10350,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,91,455,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,13650,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,83,415,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,12450,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,27,135,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,4050,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,22,110,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,3300,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,57,285,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,8550,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,74,370,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,11100,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,24,120,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,3600,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,46,230,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,6900,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,22,110,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,3300,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,30,150,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,4500,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,54,270,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,8100,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,33,165,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,4950,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,91,455,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,13650,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,61,305,Aleppo,Afrin,Jandairis,Jandairis,SY02,SY0203,SY020302,C1426,In the Camp,36.689563,36.392488,9150,Earthquake
+2023-02-28T00:00:00Z,Shafak Organization (SO),SO,CBRTWG-044,Completed,USD,150,213,1065,Aleppo,Afrin,Afrin,Afrin (Afrin),SY02,SY0203,SY020300,C1366,In the Camp,36.865523,36.511094,31950,Earthquake
+2023-02-10T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,220,1198,Idleb,Idleb,Maaret Tamsrin,Shekh Bahr,SY07,SY0700,SY070005,C6631,In the Village,36.564705,36.050467,33000,Earthquake
+2023-02-10T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,165,944,Idleb,Harim,Dana,Termanin,SY07,SY0703,SY070301,C4125,In the Village,36.815206,36.228402,24750,Earthquake
+2023-02-10T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,25,129,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Village,36.76958,36.213601,3750,Earthquake
+2023-02-10T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,107,566,Aleppo,Jebel Saman,Daret Azza,Daret Azza,SY02,SY0200,SY020004,C1139,In the Village,36.851091,36.285021,16050,Earthquake
+2023-02-10T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,726,4203,Aleppo,Jebel Saman,Atareb,Atareb,SY02,SY0200,SY020001,C1022,In the Village,36.828382,36.137884,108900,Earthquake
+2023-02-10T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,1152,5887,Idleb,Harim,Dana,Deir Hassan - Darhashan,SY07,SY0703,SY070301,C4129,In the Village,36.762754,36.233725,172800,Earthquake
+2023-02-13T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,357,2200,Idleb,Harim,Dana,Tilaada,SY07,SY0703,SY070301,C4124,In the Village,36.800669,36.251766,53550,Earthquake
+2023-02-14T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,589,4805,Aleppo,Jebel Saman,Atareb,Jeineh,SY02,SY0200,SY020001,C1032,In the Village,36.801449,36.117087,88350,Earthquake
+2023-02-14T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,301,1860,Aleppo,Jebel Saman,Atareb,Maaret Atarib,SY02,SY0200,SY020001,C1038,In the Village,36.81829,36.157567,45150,Earthquake
+2023-02-14T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,443,3256,Aleppo,Jebel Saman,Atareb,Kafr Naseh Elatareb,SY02,SY0200,SY020001,C1036,In the Village,36.788264,36.135897,66450,Earthquake
+2023-02-14T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,343,1987,Aleppo,Jebel Saman,Atareb,Batbu,SY02,SY0200,SY020001,C1025,In the Village,36.739787,36.133376,51450,Earthquake
+2023-02-14T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,2697,14563,Idleb,Harim,Dana,Dana (Dana),SY07,SY0703,SY070301,C4126,In the Village,36.76958,36.213601,404550,Earthquake
+2023-03-28T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,1930,10360,Aleppo,Jebel Saman,Daret Azza,Daret Azza,SY02,SY0200,SY020004,C1139,In the Village,36.851091,36.285021,289500,Earthquake
+2023-02-16T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,79,414,Idleb,Harim,Dana,Burdaqly,SY07,SY0703,SY070301,C6693,In the Village,36.73179,36.21333,11850,Earthquake
+2023-03-22T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,301,1671,Aleppo,Jebel Saman,Daret Azza,Deir Samaan,SY02,SY0200,SY020004,C6766,In the Village,36.83597,36.324655,45150,Earthquake
+2023-02-24T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,559,3487,Aleppo,Jebel Saman,Atareb,Kafr Karmin (co),SY02,SY0200,SY020001,C1035,In the Village,36.791893,36.163135,83850,Earthquake
+2023-03-27T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,99,605,Aleppo,Jebel Saman,Daret Azza,Qatoura,SY02,SY0200,SY020004,C8116,In the Village,36.83015,36.302303,14850,Earthquake
+2023-03-29T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,639,3684,Aleppo,Jebel Saman,Atareb,Sahara,SY02,SY0200,SY020001,C1023,In the Village,36.842719,36.183161,95850,Earthquake
+2023-02-16T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,45,270,Aleppo,Jebel Saman,Atareb,Tuwama,SY02,SY0200,SY020001,C1020,In the Village,36.809482,36.194153,6750,Earthquake
+2023-03-27T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,79,392,Aleppo,Jebel Saman,Daret Azza,Zarzita,SY02,SY0200,SY020004,C1138,In the Village,36.799957,36.293383,11850,Earthquake
+2023-03-27T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,72,384,Aleppo,Jebel Saman,Daret Azza,NA,SY02,SY0200,SY020004,NA,In the Village,NA,NA,10800,Earthquake
+2023-02-19T00:00:00Z,International Rescue Committee (IRC),IRC,CBRTWG-006,Completed,USD,150,897,5819,Aleppo,Jebel Saman,Atareb,Abin Samaan,SY02,SY0200,SY020001,C1026,In the Village,36.763108,36.089467,134550,Earthquake
+NA,International Rescue Committee (IRC),IRC,CBRTWG-006,Planned,NA,NA,NA,NA,Idleb,Harim,Salqin,Tlul,SY07,SY0703,SY070302,C4137,In the Village,36.399881,36.207339,NA,Earthquake
+2023-03-09T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,42,162,Idleb,Jisr-Ash-Shugur,Janudiyeh,Foz - Zuf,SY07,SY0704,SY070403,C4263,In the Village,36.234349,35.941613,6300,Earthquake
+2023-02-25T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,449,4430,Idleb,Harim,Armanaz,Armanaz,SY07,SY0703,SY070305,C4176,In the Village,36.502023,36.084016,67350,Earthquake
+2023-02-16T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,129,679,Idleb,Jisr-Ash-Shugur,Jisr-Ash-Shugur,Jisr-Ash-Shugur,SY07,SY0704,SY070400,C4199,In the Village,36.314953,35.814181,19350,Earthquake
+2023-02-16T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,446,1891,Idleb,Jisr-Ash-Shugur,Janudiyeh,Foz - Zuf,SY07,SY0704,SY070403,C4263,In the Village,36.234349,35.941613,66900,Earthquake
+2023-02-25T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,220,2130,Idleb,Harim,Kafr Takharim,Kafr Takharim,SY07,SY0703,SY070303,C4157,In the Village,36.51543,36.116497,33000,Earthquake
+2023-02-25T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,163,1584,Idleb,Harim,Armanaz,Milis,SY07,SY0703,SY070305,C4184,In the Village,36.487717,36.005116,24450,Earthquake
+2023-02-16T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,192,843,Idleb,Jisr-Ash-Shugur,Janudiyeh,Qanniyeh (Janudiyeh),SY07,SY0704,SY070403,C4260,In the Camp,36.319267,35.922078,28800,Earthquake
+2023-02-10T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,777,3773,Aleppo,Jebel Saman,Atareb,Atareb,SY02,SY0200,SY020001,C1022,In the Village,36.828382,36.137884,116550,Earthquake
+2023-02-11T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,394,2164,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Camp,36.723929,36.186604,59100,Earthquake
+2023-03-12T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,76,681,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,11400,Earthquake
+2023-03-12T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,30,264,Idleb,Jisr-Ash-Shugur,Jisr-Ash-Shugur,Al Areen - Kastanah Fawqan,SY07,SY0704,SY070400,C6640,In the Village,36.399782,35.836472,4500,Earthquake
+2023-03-12T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,168,1410,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,25200,Earthquake
+2023-03-12T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,121,852,Idleb,Harim,Salqin,Aljib,SY07,SY0703,SY070302,C6694,In the Village,36.424113,36.152629,18150,Earthquake
+2023-03-12T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,14,140,Idleb,Harim,Armanaz,Armanaz,SY07,SY0703,SY070305,C4176,In the Village,36.502023,36.084016,2100,Earthquake
+2023-03-09T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,22,193,Idleb,Jisr-Ash-Shugur,Jisr-Ash-Shugur,Balmis,SY07,SY0704,SY070400,C4191,In the Village,36.370685,35.886658,3300,Earthquake
+2023-03-12T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,438,3030,Idleb,Harim,Salqin,Big Hir Jamus,SY07,SY0703,SY070302,C4141,In the Village,36.420317,36.189338,65700,Earthquake
+2023-03-12T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,30,275,Idleb,Jisr-Ash-Shugur,Jisr-Ash-Shugur,Ein Elsoda (Jisr-Ash-Shugur),SY07,SY0704,SY070400,C4204,In the Village,36.34248,35.831804,4500,Earthquake
+2023-03-12T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,183,1299,Idleb,Harim,Salqin,Faroukiyeh,SY07,SY0703,SY070302,C6619,In the Village,36.407387,36.182357,27450,Earthquake
+2023-03-12T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,55,343,Idleb,Harim,Salqin,Foziyeh,SY07,SY0703,SY070302,C4135,In the Village,36.394989,36.212291,8250,Earthquake
+2023-03-09T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,8,73,Idleb,Jisr-Ash-Shugur,Jisr-Ash-Shugur,Jeb Alsafa,SY07,SY0704,SY070400,C6641,In the Village,36.392073,35.882983,1200,Earthquake
+2023-03-12T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,53,455,Idleb,Jisr-Ash-Shugur,Jisr-Ash-Shugur,Kniset Nakhleh,SY07,SY0704,SY070400,C4222,In the Village,36.376836,35.822991,7950,Earthquake
+2023-03-22T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,718,3856,Idleb,Harim,Dana,Atma,SY07,SY0703,SY070301,C4130,In the Village,36.689846,36.309771,107700,Earthquake
+2023-03-22T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,419,2281,Idleb,Harim,Dana,Sarmada,SY07,SY0703,SY070301,C4121,In the Village,36.723929,36.186604,62850,Earthquake
+2023-03-12T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,45,446,Idleb,Harim,Armanaz,Milis,SY07,SY0703,SY070305,C4184,In the Village,36.487717,36.005116,6750,Earthquake
+2023-03-13T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,184,1372,Idleb,Harim,Salqin,Kafarna,SY07,SY0703,SY070302,C4149,In the Village,36.44031,36.194488,27600,Earthquake
+2023-03-13T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,15,134,Idleb,Jisr-Ash-Shugur,Jisr-Ash-Shugur,Watba,SY07,SY0704,SY070400,C4220,In the Village,36.408324,35.810155,2250,Earthquake
+2023-03-14T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,330,2196,Idleb,Harim,Salqin,Msheirfeh (Salqin),SY07,SY0703,SY070302,C6620,In the Village,36.378474,36.172094,49500,Earthquake
+2023-03-14T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,145,1329,Idleb,Jisr-Ash-Shugur,Janudiyeh,Mudiah - Luxin,SY07,SY0704,SY070403,C4261,In the Village,36.314192,35.942605,21750,Earthquake
+2023-03-14T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,16,143,Idleb,Harim,Salqin,Salqin,SY07,SY0703,SY070302,C4140,In the Village,36.453694,36.139048,2400,Earthquake
+2023-03-14T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,15,127,Idleb,Jisr-Ash-Shugur,Jisr-Ash-Shugur,Sabileh,SY07,SY0704,SY070400,C4211,In the Village,36.416134,35.875003,2250,Earthquake
+2023-03-30T00:00:00Z,People in Need (PIN),PIN,CBRTWG-008,Completed,USD,150,286,1325,Idleb,Harim,Dana,Burdaqly,SY07,SY0703,SY070301,C6693,In the Village,36.73179,36.21333,42900,Earthquake
