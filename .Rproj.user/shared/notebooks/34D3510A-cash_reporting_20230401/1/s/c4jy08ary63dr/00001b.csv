@@ -14,7 +14,7 @@
   select(governorate, district, communities, partners, 
          households, beneficiaries, total_usd, `%_beneficiaries`) %>% 
   flextable() %>% 
-  set_caption(""364,000 people reached with MPC, USD 10.5 million disbursed, 05 April 2023"") %>% 
+  set_caption(paste0(""448,000 people reached with MPC, USD 13.2 million disbursed, "", report_date)) %>% 
   theme_zebra() %>% 
 #  footnote(i = 1, j = 6, part = ""header"", ref_symbols = ""a"",
 #           as_paragraph(""Beneficiary figures include only reported MPC with a minimum transfer value #of USD 100"")) %>% 

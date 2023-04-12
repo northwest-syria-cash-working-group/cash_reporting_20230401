@@ -1,0 +1,46 @@
+"0","eq %>% 
+  left_join(hno %>% 
+              select(governorate = admin1name_en, 
+                     district = admin2name_en, 
+                     sub_district = admin3name_en, 
+                     admin3pcode), 
+            by = ""admin3pcode"") %>%
+  filter(admin3pcode %in% nw_pcode3 & 
+           district %in% c(""Harim"", ""Idleb"", ""Jisr-Ash-Shugur"",
+                              ""Afrin"", ""Jebel Saman"", ""A'zaz"", ""Jarablus"", ""Al Bab"")) %>% 
+  group_by(governorate, district, sub_district, admin3pcode) %>% 
+  summarise(wounded_dead = sum(wounded_dead, na.rm = TRUE), 
+            damaged_houses = sum(damaged_houses, na.rm = TRUE)) %>%
+  left_join(hno %>% 
+              filter(admin3pcode %in% nw_pcode3 &
+                       admin2name_en %in% c(""Harim"", ""Idleb"", ""Jisr-Ash-Shugur"",
+                              ""Afrin"", ""Jebel Saman"", ""A'zaz"", ""Jarablus"", ""Al Bab"")) %>%
+              group_by(admin3pcode) %>%
+              summarise(population = sum(total_population, na.rm = TRUE)), 
+            by = ""admin3pcode"") %>% 
+  mutate(wounded_dead_100k = round(wounded_dead / population * 100000, digits = 2), 
+         damaged_houses_100k = round(damaged_houses / population * 100000, digits = 2)) %>% 
+    left_join(cbr %>% 
+                filter(project_status == ""Completed"") %>% 
+                group_by(admin3pcode) %>% 
+                summarise(beneficiaries = sum(beneficiaries, na.rm = TRUE)), 
+              by = ""admin3pcode"") %>% 
+  ggplot(aes(x = damaged_houses, y = wounded_dead)) + 
+  geom_point(aes(size = wounded_dead_100k, 
+                 colour = beneficiaries)) + 
+  geom_text_repel(aes(label = sub_district),
+                   point.padding = .5, 
+                   segment.color = ""grey50"", size = 3) +
+  scale_x_log10(labels = comma) + 
+  scale_y_log10(labels = comma) + 
+  scale_colour_viridis(option = ""mako"", direction = -1, 
+                       labels = comma) + 
+  scale_size(breaks = c(0, 100, 500, 1000, 3000)) + 
+  labs(x = ""Number of damaged houses"", 
+       y = ""Number of wounded and dead"", 
+       title = ""Magnitude of earthquake impacts by sub-district"", 
+       subtitle = ""Size shows severity (wounded/dead per 100k) and colour shows beneficiaries"", 
+       size = ""Wounded/dead\nper 100k"", 
+       colour = ""Beneficiaries"")
+"
+"2","`summarise()` has grouped output by 'governorate', 'district', 'sub_district'. You can override using the `.groups` argument."
