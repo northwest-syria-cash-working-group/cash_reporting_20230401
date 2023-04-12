@@ -802,7 +802,7 @@ cbr %>%
   theme_zebra() %>% 
   set_table_properties(layout = "autofit", width = .8) %>% 
   footnote(as_paragraph("Only partners who provided more than USD 100/family/month"), 
-           i = 1, j = 1, part = "header", inline = TRUE)
+           i = 1, j = 1, part = "header", inline = TRUE, ref_symbols = "1")
   
 ```
 
