@@ -1,6 +1,6 @@
 ---
 title: "Northwest Syria Cash Working Group Earthquake Response Bulletin"
-date:  "4 April 2023"
+date:  "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
     code_download: yes
