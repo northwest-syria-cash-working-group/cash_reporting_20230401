@@ -288,7 +288,7 @@ cbr %>%
 
 ## 1.1 Progress by date
 
-```{r}
+```{r fig.height=6}
 cbr %>%
   mutate(distribution_date = as.Date(distribution_date)) %>% 
   filter(!is.na(distribution_date)) %>% 
@@ -331,7 +331,7 @@ The `r format(filter(cbr, response_type == "HRP" & project_status == "Completed"
 
 <br>
 
-```{r}
+```{r fig.height=7}
 
 planned_implemented_map <- cbr %>% 
   right_join(pcode3_shape, 
@@ -473,13 +473,11 @@ eq %>%
            value = as_paragraph("Data from the Assistance Coordination Unit, Syria 20230328"))
 ```
 
-  
-  
+<br>
 
 Below is a breakdown of beneficiaries based on whether they originate from camps or villages: 
 
-  
-  
+<br>
 
 ```{r}
 cbr %>% 
@@ -496,9 +494,7 @@ cbr %>%
 ```
 
 
-  
-    
-    
+<br><br><br>
 
 ### 3.1 By sub-district
 
@@ -510,7 +506,7 @@ The average percentage of the population reached, of all sub-districts, is 10.63
 
 <br>
 
-```{r}
+```{r fig.height=8}
 cbr %>% 
   filter(project_status == "Completed") %>% 
   mutate(sub_district = recode(sub_district, 
@@ -576,7 +572,7 @@ The size of each point indicates the number of dead or wounded persons there per
 
 <br>
 
-```{r}
+```{r fig.height=6}
 eq %>% 
   left_join(hno %>% 
               select(governorate = admin1name_en, 
@@ -634,7 +630,7 @@ This should also be compared to each sub-district's share of the earthquake dama
 
 <br>
 
-```{r}
+```{r fig.height=6}
 eq %>% 
   left_join(hno %>% 
               select(governorate = admin1name_en, 
@@ -814,6 +810,8 @@ cbr %>%
 
 ### 4.1 USD disbursed per partner
 
+<br>
+
 ```{r}
 cbr %>% 
   filter(project_status == "Completed") %>% 
@@ -835,7 +833,7 @@ cbr %>%
 
 The CWG is currently working with other Clusters to consolidate all cash-based activities and will soon be able to provide more comprehensive reporting. 
 
-# 5 Annexes
+# 5. Annexes
 
 <br>
 
@@ -908,6 +906,10 @@ cbr %>%
   theme_zebra() %>%
   set_table_properties(layout = "autofit", width = .6)
 ```
+
+<br>
+
+Below is a breakdown of reporting by date: 
 
 <br>
 

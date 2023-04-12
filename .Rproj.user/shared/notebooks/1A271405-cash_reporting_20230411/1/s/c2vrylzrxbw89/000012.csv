@@ -1,0 +1,6 @@
+"0","filter(cbr, month == 2 & project_status == ""Completed"") %>% {sum(.$beneficiaries, na.rm = TRUE)} %>% format(big.mark = "","")
+"
+"1","[1]"
+"1"," ""177,525"""
+"1","
+"
