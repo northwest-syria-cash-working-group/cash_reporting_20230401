@@ -1,9 +1,0 @@
-"0","cbr %>% 
-  mutate(distribution_date = as.Date(distribution_date)) %>% 
-  filter(distribution_date == ""0022-01-20"") %>% 
-  {sum(.$beneficiaries, na.rm = TRUE)}
-"
-"1","[1]"
-"1"," 2028"
-"1","
-"

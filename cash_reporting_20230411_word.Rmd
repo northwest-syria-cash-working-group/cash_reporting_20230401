@@ -104,6 +104,8 @@ pcode3_shape <-
 arabic_labels <- function(x) paste0("\u202b", x)
 
 report_date <- "11 April 2023"
+
+four <- read_csv("./data/4ws.csv")
 ```
 
 
@@ -297,7 +299,7 @@ cbr %>%
 
 <br>
 
-The `r format(filter(cbr, response_type == "HRP" & project_status == "Completed") %>% {sum(.$beneficiaries, na.rm = TRUE)}, big.mark = ",")`` beneficiaries reached earlier that 2023-02-09 all pertained to the HRP, the only such beneficiaries reported so far. 
+The small number of beneficiaries reached earlier than February all pertained to the HRP, the only such beneficiaries reported so far. It is unclear if this is the extent of all January achievements. 
 
 <br><br>
 
@@ -654,7 +656,7 @@ eq %>%
 
 <br>
 
-The CWG is currently working on a prioritisation score, which can be a useful shorthand (or crutch), that will take into account pre-existing vulnerability (likely from the MSNA) as well as earthquake impacts. 
+The CWG is currently working on a prioritisation score, which can be a useful shorthand, that will take into account pre-existing vulnerability (likely from the MSNA) as well as earthquake impacts. 
 
 <br><br>
 
@@ -684,7 +686,7 @@ cbr %>%
   geom_col(fill = "lightgoldenrod") +
   geom_text(aes(label = comma(beneficiaries)), hjust = "inward") +
   scale_x_continuous(labels = unit_format(unit = "K", scale = 1e-3, accuracy = 1)) + 
-  labs(title = "Idleb", 
+  labs(title = "Planned beneficiaries -- Idleb", 
        x = "Planned beneficiaries", 
        y = "")  + 
 
@@ -802,10 +804,13 @@ cbr %>%
   flextable::set_table_properties(layout = "autofit", width = .8)
 ```
 
+<br>
+
+The CWG is currently working with other Clusters to consolidate all cash-based activities and will soon be able to provide more comprehensive reporting. 
+
 
 <br><br><br>
 
-The CWG is currently working with other Clusters to consolidate all cash-based activities and will soon be able to provide more comprehensive reporting. 
 
 # 5. Annexes
 
@@ -940,6 +945,41 @@ cbr %>%
   theme_zebra() %>%
   set_table_properties(layout = "autofit", width = .6)
 ```
+
+<br><br>
+
+### 5.3 Disaggregations 
+
+Of the 565 rows reported through the 4Ws (the FSL tracker does not ask for beneficiary disaggregations), only `r four %>% filter(project_status == "Completed") %>% filter(!is.na(elderly_females_60) | !is.na(elderly_males_60)) %>% nrow()` have any values for the numbers of elderly persons reached. 
+
+The total number of elderly persons reached by the CWG partners is `r four %>% filter(project_status == "Completed") %>% summarise(elderly = round(sum(elderly_females_60, na.rm = TRUE) + sum(elderly_males_60, na.rm = TRUE), digits = 0)) %>% pull() %>% format(big.mark = ",")`. The total number of beneficiaries reached is `r filter(cbr, project_status == "Completed") %>% {sum(.$beneficiaries, na.rm = TRUE)} %>% format(big.mark = ",")`. 
+
+It is unclear how able partners are to comply with sex- and age-disaggregated reporting. 452 of the 565 rows reported through the 4Ws contain some form of sex-and-age disaggregation. Of these, only 366 rows have not copy/pasted the disaggregations from the MSNA (13% men, 27% women, 28% boys and 31% girls). For analysis purposes, these have been discarded. In future, it is always preferable to leave disaggregation columns blank as opposed to including values that have been backfilled from a census or a survey, especially as this backfilling will be done by OCHA as a final step in reporting anyway. 
+
+This is a histogram of the remaining values: 
+
+<br>
+
+```{r}
+four %>% 
+  filter(!is.na(men_18_60) | !is.na(women_18_60) | !is.na(boys_18) | !is.na(girls_18)) %>% 
+  select(beneficiaries, men_18_60, women_18_60, boys_18, girls_18) %>% 
+  adorn_percentages("row") %>%  
+  filter(men_18_60 != .13  & women_18_60 != .27) %>% 
+  mutate(pc_male = men_18_60 + boys_18)  %>%  
+  ggplot(aes(x = pc_male)) + 
+  geom_density(colour = "blue", alpha = .7) + 
+  geom_histogram(bins = 50, alpha = .8) + 
+  scale_x_log10(labels = percent) + 
+  labs(title = "Abnormal distribution of men as percentage of individuals reached", 
+       x = "Males as % of total", 
+       y = "Number of rows")
+```
+
+<br> 
+
+
+Until such time copy/pasted values are excluded from the sex-and-age disggregations, it would be incorrect to estimate the number of men, women, boys and girls reached from the 4W values. This also means that it is not possible to determine if there is a skew towards either sex in our current programming. 
 
 
 
