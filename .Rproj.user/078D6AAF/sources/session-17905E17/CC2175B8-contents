@@ -1017,7 +1017,7 @@ hno %>%
   geom_density(colour = "blue", alpha = .7) + 
   geom_histogram(bins = 50, alpha = .8) + 
   scale_x_log10(labels = percent) + 
-  labs(title = "Normal distribution of men as percentage of PIN in Syria", 
+  labs(title = "Normal distribution of males as percentage of PIN in Syria", 
        x = "Males as % of total", 
        y = "Number of sub-districts")
 ```
