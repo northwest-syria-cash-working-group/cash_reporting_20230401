@@ -222,7 +222,7 @@ four <- read_csv("./data/4ws.csv")
 As of 11 April 2023, a total of `r cbr %>% filter(project_status == "Completed") %>% {sum(.$beneficiaries)} %>% format(big.mark = ",")` persons or `r cbr %>% filter(project_status == "Completed") %>% {sum(.$families, na.rm = TRUE)} %>% format(big.mark = ",")` families have been reached by MPC interventions. 
 A total of USD `r paste(format(round((cbr %>% filter(project_status == "Completed") %>%  {sum(.$total_usd)}) / 1000000, 1), trim = TRUE), "million")` has been disbursed by `r cbr %>% filter(project_status == "Completed") %>% summarise(n_distinct(implementing_partner)) %>% pull()` implementing agencies across `r cbr %>% filter(project_status == "Completed") %>% summarise(n_distinct(admin3pcode)) %>% pull()` sub-districts. 
 
-With only certain exceptions (such as activities specified as non-MPC cash-for-food), only beneficiaries who have received at least USD 100/family/month have been included.
+*With only certain exceptions (such as activities specified as non-MPC cash-for-food), only beneficiaries who have received at least USD 100/family/month have been included.*
 
 <br>
 
@@ -236,12 +236,12 @@ cbr %>%
             beneficiaries = sum(beneficiaries, na.rm = TRUE), 
             total_usd = sum(total_usd, na.rm = TRUE)) %>% 
   ungroup() %>% 
-  mutate(`%_beneficiaries` = 
+  mutate(`%_BNF` = 
            round(beneficiaries / sum(beneficiaries, na.rm = TRUE) * 100, digits = 2)) %>%
-  adorn_totals("row",,,, households, beneficiaries, total_usd, `%_beneficiaries`) %>% 
-  mutate(`%_beneficiaries` = ifelse(`%_beneficiaries` > 99.98, 100, `%_beneficiaries`)) %>% 
+  adorn_totals("row",,,, households, beneficiaries, total_usd, `%_BNF`) %>% 
+  mutate(`%_BNF` = ifelse(`%_BNF` > 99.98, 100, `%_BNF`)) %>% 
   select(governorate, district, communities, partners, 
-         households, beneficiaries, total_usd, `%_beneficiaries`) %>% 
+         households, beneficiaries, total_usd, `%_BNF`) %>% 
   flextable() %>% 
   set_caption(paste0("448,000 people reached with MPC, USD 13.3 million disbursed, ", report_date)) %>% 
   theme_zebra() %>% 
@@ -274,11 +274,12 @@ cbr %>% count(implementing_partner, partner_code)
 
 <br>
 
-`r filter(cbr, month == 2 & project_status == "Completed") %>% {sum(.$beneficiaries, na.rm = TRUE)} %>% format(big.mark = ",")` beneficiaries were reached in February 2023 and `r filter(cbr, month == 3 & project_status == "Completed") %>% {sum(.$beneficiaries, na.rm = TRUE)} %>% format(big.mark = ",")` were reached in March 2023. `r filter(cbr, month == 4 & project_status == "Completed") %>% {sum(.$beneficiaries, na.rm = TRUE)} %>% format(big.mark = ",")` have been reached so far in April 2023.Changes in numbers of persons reached were due to cleaning and verification of the dataset -- this process is still ongoing and will only be completed once the CWG fully transitions to 4W reporting. 
+`r filter(cbr, month == 2 & project_status == "Completed") %>% {sum(.$beneficiaries, na.rm = TRUE)} %>% format(big.mark = ",")` beneficiaries were reached in February 2023 and `r filter(cbr, month == 3 & project_status == "Completed") %>% {sum(.$beneficiaries, na.rm = TRUE)} %>% format(big.mark = ",")` were reached in March 2023. `r filter(cbr, month == 4 & project_status == "Completed") %>% {sum(.$beneficiaries, na.rm = TRUE)} %>% format(big.mark = ",")` have been reached so far in April 2023.
+
+*The cleaning and verification of the dataset is still ongoing, many changes in numbers of persons reached reflect this process and will only be completed once the CWG fully transitions to 4Ws reporting.*
 
   
   
-
 ```{r eval=FALSE}
 cbr %>% 
   mutate(distribution_date = as.Date(distribution_date)) %>% 
@@ -320,12 +321,12 @@ cbr %>%
        title = "MPC progress by date", 
        subtitle = "The earliest earthquake-related distribution was 2023-02-09\nExcludes 16,460 beneficiaries for which the date was not reported or was unreadable")  
   
-# ggsave("./img/progress_line.png", dpi = 300, height = 8.27, width = 11.69, units = "in")  
+ggsave("./img/progress_line.png", dpi = 300, height = 8.27, width = 11.69, units = "in")  
 ```
 
 <br>
 
-The small number of beneficiaries reached earlier than February all pertained to the HRP, the only such beneficiaries reported so far. It is unclear if this is the extent of all January achievements. 
+The small number of beneficiaries reached earlier than February all pertained to the HRP, the only such beneficiaries reported so far. The CWG would like to encourage partners to report on their January achievements. 
 
 <br><br>
 
@@ -621,6 +622,7 @@ eq %>%
        caption = "Data from CWG, FSL and ACU") +
   theme(plot.caption = element_text(hjust = .5)) 
   
+ggsave("./img/pop_ben_scatter.png", dpi = 300, height = 8.27, width = 11.69, units = "in")
  
 ```
 
@@ -678,6 +680,8 @@ eq %>%
        size = "Wounded/dead\nper 100k", 
        colour = "Beneficiaries", 
        caption = "Data from CWG, FSL and ACU")
+
+ggsave("./img/earthquake_impact_scatter.png", dpi = 300, height = 8.27, width = 11.69, units = "in")
 ```
 
 <br>
@@ -688,6 +692,8 @@ The CWG is currently working on a prioritisation score, which can be a useful sh
 
 
 ### 3.3 Planned activities 
+
+
 
 ```{r}
 cbr %>% 
@@ -718,17 +724,53 @@ cbr %>%
 
   plot_layout(widths = c(2, 3))
 
-# ggsave("./img/planned_by_sub_district.png", dpi = 300, height = 8.27, width = 11.69, units = "in")
+ggsave("./img/planned_by_sub_district.png", dpi = 300, height = 8.27, width = 11.69, units = "in")
 
 ```
+
+<br>
+
+```{r}
+cbr %>% group_by(project_status) %>% 
+  summarise(partners = n_distinct(implementing_partner), 
+            beneficiaries = sum(beneficiaries, na.rm = TRUE)) %>% 
+  mutate(`%_beneficiaries` = round(beneficiaries / sum(beneficiaries) * 100, digits = 2)) %>% 
+  flextable() %>% 
+  set_caption("12 partners have reported planned activities") %>% 
+  theme_zebra() %>%
+  set_table_properties(layout = "autofit", width = .6)
+```
+
+<br>
+
+The sum of planned beneficiaries is `r format(filter(cbr, project_status == "Planned") %>% {sum(.$beneficiaries)}, big.mark = ",")`. If this is the extent of all planned MPC activities, the CWG as a whole can expect to reach around 77% of its target of 662,942 persons. 
+
+<br>
+
+
+
+```{r}
+cbr %>% 
+  filter(project_status == "Planned") %>% 
+  mutate(month = month(distribution_date, label = TRUE), 
+         month = as.character(month)) %>% 
+  mutate(month = ifelse(month %in% c("Feb", "Mar"), NA_character_, month)) %>% 
+  group_by(month) %>% 
+  summarise(beneficiaries = sum(beneficiaries, na.rm = TRUE)) %>% 
+  mutate(month = fct_relevel(month, c("Apr", "May", "Jun"))) %>% 
+  flextable() %>% 
+  theme_zebra() %>% 
+  set_caption("Planned beneficiaries by month") %>% 
+  footnote(i = 1, j = 1, inline = TRUE, ref_symbols = "1", part = "header",
+           value = as_paragraph("Some dates are missing or improperly encoded")) %>% 
+  set_table_properties(layout = "autofit", width = .5)
+```
+
+
 
 <br><br><br>
 
 # 4. Cash response actors and cash disbursed
-
-In the scatterplot below, each point is a single cash working group partner. The x-axis indicates the number of beneficiaries reached per agency and the y-axis indicates the number of communities (admin4) reached. 
-
-<br>
 
 ```{r totals, eval = FALSE}
 
@@ -740,6 +782,37 @@ fsl %>%
 
 ```
 
+USD `r paste(round(cbr %>% filter(project_status == "Completed") %>% {sum(.$total_usd)} / 1000000, digits = 1), "million")` has been distributed across `r cbr %>% filter(project_status == "Completed") %>% {n_distinct(.$admin4pcode)}` communities and `r cbr %>% filter(project_status == "Completed") %>% {n_distinct(.$admin3pcode)}` sub-districts in NW Syria.
+
+<br>
+
+```{r}
+cbr %>% 
+  filter(project_status == "Completed") %>% 
+  group_by(implementing_partner, 
+           admin2pcode, 
+           admin4pcode) %>% 
+  slice(which.max(beneficiaries)) %>% 
+  ungroup() %>% 
+  group_by(implementing_partner) %>% 
+  summarise(beneficiaries = sum(beneficiaries, na.rm = TRUE), 
+            districts = n_distinct(admin2pcode), 
+            communities = n_distinct(admin4pcode)) %>% 
+  arrange(desc(beneficiaries)) %>% 
+  flextable() %>% 
+  set_caption("Reach and footprint of cash response actors") %>% 
+  theme_zebra() %>% 
+  set_table_properties(layout = "autofit", width = .8) %>% 
+  footnote(as_paragraph("Only partners who provided more than USD 100/family/month"), 
+           i = 1, j = 1, part = "header", inline = TRUE, ref_symbols = "1")
+  
+```
+
+<br>
+
+In the scatterplot below, each point is a single cash working group partner. The x-axis indicates the number of beneficiaries reached per agency and the y-axis indicates the number of communities (admin4) reached. Mouse over each point for more details.
+
+<br>
 
 
 
@@ -776,37 +849,7 @@ ggplotly(partner_scatter, tooltip = c("text")) %>%
 
 ```
 
-<br>
 
-USD `r paste(round(cbr %>% filter(project_status == "Completed") %>% {sum(.$total_usd)} / 1000000, digits = 1), "million")` has been distributed across `r cbr %>% filter(project_status == "Completed") %>% {n_distinct(.$admin4pcode)}` communities and `r cbr %>% filter(project_status == "Completed") %>% {n_distinct(.$admin3pcode)}` sub-districts in NW Syria.
-
-
-The table below summarises the information in the scatterplot above in tabular form:
-
-<br>
-
-
-```{r}
-cbr %>% 
-  filter(project_status == "Completed") %>% 
-  group_by(implementing_partner, 
-           admin2pcode, 
-           admin4pcode) %>% 
-  slice(which.max(beneficiaries)) %>% 
-  ungroup() %>% 
-  group_by(implementing_partner) %>% 
-  summarise(beneficiaries = sum(beneficiaries, na.rm = TRUE), 
-            districts = n_distinct(admin2pcode), 
-            communities = n_distinct(admin4pcode)) %>% 
-  arrange(desc(beneficiaries)) %>% 
-  flextable() %>% 
-  set_caption("Reach and footprint of cash response actors") %>% 
-  theme_zebra() %>% 
-  set_table_properties(layout = "autofit", width = .8) %>% 
-  footnote(as_paragraph("Only partners who provided more than USD 100/family/month"), 
-           i = 1, j = 1, part = "header", inline = TRUE, ref_symbols = "1")
-  
-```
 
 <br><br>
 
@@ -890,143 +933,13 @@ eq %>%
 
 ### 5.2 Reporting quality 
 
-This section documents issues encountered in the cleaning of 4W and FSL data and their impacts on the quality of reporting the CWG can provide. 
+This section documents issues encountered in the cleaning of 4W and FSL data and their impacts on the quality of reporting the CWG can provide. The recommendations by the CWG are included to enhance reporting quality: 
 
-Note that substantial cleaning has already taken place and these outstanding issues could not be resolved by the time of reporting. 
+1. The CWG has shifted into a new 4Ws template for biweekly reporting to better capture the earthquake response. Deadlines are set on the 10th and the 25th of each month. 8 partners reported achievements in February and 10 reported achievements in March. The CWG encourages all partners to submit include their January achievements in the 4Ws. If no MPC activities were implemented, please inform the CWG as well. 
 
-However, the CWG recognises that not all reporting issues were due to partner error. The CWG will work with partners to continue improving reporting quality. 
+2. For this reporting period, activities pertaining to 16,460 beneficiaries were missing their dates or had dates in unreadable formats. Please ensure that the `start date` and `end date` are entered in the format **mm/dd/yyyy** and select the `month of reporting` from the options in the dropdown menu. 
 
-<br> 
-
-```{r}
-cbr %>% 
-  filter(project_status == "Completed") %>% 
-  group_by(source) %>% 
-  summarise(partners = n_distinct(implementing_partner),
-            beneficiaries = sum(beneficiaries)) %>% 
-  mutate(`%_beneficiaries` = round(beneficiaries / sum(beneficiaries) * 100, digits = 2)) %>% 
-  flextable() %>% 
-  set_caption("Still, one third of reporting originates from the FSL tracker") %>% 
-  theme_zebra() %>%
-  set_table_properties(layout = "autofit", width = .6)
-```
-
-<br>
-
-Below is a breakdown of reporting by date: 
-
-<br>
-
-```{r}
-cbr %>% 
-  filter(project_status == "Completed") %>% 
-  group_by(month = month(distribution_date, label = TRUE)) %>% 
-  summarise(partners = n_distinct(implementing_partner),
-            beneficiaries = sum(beneficiaries)) %>% 
-  mutate(`%_beneficiaries` = round(beneficiaries / sum(beneficiaries) * 100, digits = 2)) %>% 
-  flextable() %>% 
-  set_caption("January reporting is still largely incomplete") %>% 
-  theme_zebra() %>%
-  set_table_properties(layout = "autofit", width = .6)
-```
-
-<br> 
-
-Activities pertaining to 14,432 were missing their date or had dates in unreadable formats. However, the columns `start date`, `end date` and `month of reporting` were some of the most troublesome and consumed a large part of the time dedicated to data cleaning. 
-
-The CWG would like to reiterate that `start date` and `end date` should be entered in the format mm/dd/yyyy and that `month of reporting` should be selected from the dropdown menu. 
-
-<br>
-
-```{r}
-cbr %>% group_by(project_status) %>% 
-  summarise(partners = n_distinct(implementing_partner), 
-            beneficiaries = sum(beneficiaries, na.rm = TRUE)) %>% 
-  mutate(`%_beneficiaries` = round(beneficiaries / sum(beneficiaries) * 100, digits = 2)) %>% 
-  flextable() %>% 
-  set_caption("12 partners have reported planned activities") %>% 
-  theme_zebra() %>%
-  set_table_properties(layout = "autofit", width = .6)
-```
-
-<br>
-
-The sum of planned beneficiaries is `r format(filter(cbr, project_status == "Planned") %>% {sum(.$beneficiaries)}, big.mark = ",")`. If this is the extent of all planned MPC activities, the CWG as a whole can expect to reach around 77% of its target of 662,942 persons. 
-
-Below is a breakdown of planned actitivities by source:
-
-<br>
-
-
-```{r}
-cbr %>% 
-  filter(project_status == "Planned") %>% 
-  group_by(source) %>% 
-  summarise(partners = n_distinct(implementing_partner), 
-            beneficiaries = sum(beneficiaries, na.rm = TRUE)) %>% 
-  mutate(`%_beneficiaries` = round(beneficiaries / sum(beneficiaries) * 100, digits = 2)) %>% 
-  flextable() %>% 
-  set_caption("Breakdown of planned activities by source") %>% 
-  theme_zebra() %>%
-  set_table_properties(layout = "autofit", width = .6)
-```
-
-
-<br><br>
-
-### 5.3 Disaggregations 
-
-
-Of the 565 rows reported through the 4Ws (the FSL tracker does not ask for beneficiary disaggregations), only `r four %>% filter(project_status == "Completed") %>% filter(!is.na(elderly_females_60) | !is.na(elderly_males_60)) %>% nrow()` have any values for the numbers of elderly persons reached. 
-
-The total number of elderly persons reached by the CWG partners is `r four %>% filter(project_status == "Completed") %>% summarise(elderly = round(sum(elderly_females_60, na.rm = TRUE) + sum(elderly_males_60, na.rm = TRUE), digits = 0)) %>% pull() %>% format(big.mark = ",")`. The total number of beneficiaries reached is `r filter(cbr, project_status == "Completed") %>% {sum(.$beneficiaries, na.rm = TRUE)} %>% format(big.mark = ",")`. 
-
-It is unclear how able partners are to comply with sex- and age-disaggregated reporting. 452 of the 565 rows reported through the 4Ws contain some form of sex-and-age disaggregation. Of these, only 366 rows have not copy/pasted the disaggregations from the MSNA (13% men, 27% women, 28% boys and 31% girls). For analysis purposes, these have been discarded. In future, it is always preferable to leave disaggregation columns blank as opposed to including values that have been backfilled from a census or a survey, especially as this backfilling will be done by OCHA as a final step in reporting anyway. 
-
-This is a histogram of the remaining values: 
-
-<br>
-
-```{r}
-four %>% 
-  filter(!is.na(men_18_60) | !is.na(women_18_60) | !is.na(boys_18) | !is.na(girls_18)) %>% 
-  select(beneficiaries, men_18_60, women_18_60, boys_18, girls_18) %>% 
-  adorn_percentages("row") %>%  
-  filter(men_18_60 != .13  & women_18_60 != .27) %>% 
-  mutate(pc_male = men_18_60 + boys_18)  %>%  
-  ggplot(aes(x = pc_male)) + 
-  geom_density(colour = "blue", alpha = .7) + 
-  geom_histogram(bins = 50, alpha = .8) + 
-  scale_x_log10(labels = percent) + 
-  labs(title = "Abnormal distribution of men as percentage of individuals reached", 
-       x = "Males as % of total", 
-       y = "Number of rows")
-```
-
-<br>
-
-This differs quite significantly from what we would expect to see in the general population and is indicative of "unnatural" data i.e. copy/pasting or broad estimations, as opposed to actual counts. The peaks around 49% and 50% show that these same percentages were copy/pasted onto a large number of rows. 
-
-For reference, this the percentage of males as a proportion of the people in need per sub-district. The distribution is roughly normal and we can see that these are "real" figures. 
-
-<br>
-
-```{r}
-hno %>% 
-  ggplot(aes(x = male_percent)) + 
-  geom_density(colour = "blue", alpha = .7) + 
-  geom_histogram(bins = 50, alpha = .8) + 
-  scale_x_log10(labels = percent) + 
-  labs(title = "Normal distribution of males as percentage of PIN in Syria", 
-       x = "Males as % of total", 
-       y = "Number of sub-districts")
-```
-
-
-<br> 
-
-
-Until such time copy/pasted values are excluded from the sex-and-age disggregations, it would be incorrect to estimate the number of men, women, boys and girls reached from the 4W values. This also means that it is not possible to determine if there is a skew towards either sex in our current programming. 
+3. For sex-and-age disggregations, please do not backfill these columns using calculations based on the census or the MSNA. If no disaggregated data is available to your organisation, please leave these columns blank. 
 
 
 

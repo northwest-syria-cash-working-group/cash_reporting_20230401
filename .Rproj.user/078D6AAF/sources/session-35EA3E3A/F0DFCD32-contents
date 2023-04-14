@@ -1,0 +1,346 @@
+---
+title: "Northwest Syria Cash Working Group Earthquake Response Bulletin"
+date:  "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  html_document:
+    code_download: yes
+    theme: readable
+    toc: yes
+    toc_depth: 4
+    toc_float: yes
+    number_sections: no
+    collapsed: no
+always_allow_html: yes
+---
+
+```{css, echo=FALSE}
+
+#TOC::before {
+  content: "";
+  display: block;
+  height: 70px;
+  margin: 2em 20px 40px 20px;
+  background-image: url("NWS-CWG logo.PNG");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+```
+
+```{=html}
+<style>
+    body .main-container {
+        max-width: 1280px;
+    }
+</style>
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.width=9, message = FALSE, warning=FALSE)
+library(tidyverse)
+library(readxl)
+library(lubridate)
+library(stringi)
+library(pander)
+library(janitor)
+library(scales)
+library(kableExtra)
+library(viridis)
+library(skimr)
+library(patchwork)
+library(DT)
+library(here)
+library(sf)
+library(plotly)
+library(flextable)
+library(snakecase)
+library(arabicStemR)
+library(writexl)
+library(mdepriv)
+library(ggrepel)
+
+theme_set(theme_light())
+
+# disabling scientific notation
+options(scipen = 100)
+
+# pander tables all in one row
+panderOptions('table.split.table', Inf)
+
+# pander thousands separator
+panderOptions("big.mark", ",")
+
+# replace 
+opts <- options(knitr.kable.NA = "")
+
+`%out%` <- Negate(`%in%`)
+
+# function for transposing df
+transpose_df <- function(df) {
+  t_df <- data.table::transpose(df)
+  colnames(t_df) <- rownames(df)
+  rownames(t_df) <- colnames(df)
+  t_df <- t_df %>%
+    tibble::rownames_to_column(.data = .) %>%
+    tibble::as_tibble(.)
+  return(t_df)
+}
+
+# function beneficiary summaries
+sum_ben <- function(df, column_var){
+  
+  column_var <- enquo(column_var)
+  
+  df %>%
+    group_by(!!column_var) %>% # must add bang-bang
+    summarise(beneficiaries = sum(new_beneficiaries, na.rm = TRUE)) %>% 
+    arrange(desc(beneficiaries))
+    
+}
+
+# function beneficiary summaries, 2 grouped variables
+sum_ben2 <- function(df, column_var1, column_var2){
+  
+  column_var1 <- enquo(column_var1)
+  column_var2 <- enquo(column_var2)
+  
+  df %>%
+    group_by(!!column_var1, !!column_var2) %>% # must add bang-bang
+    summarise(beneficiaries = sum(new_beneficiaries, na.rm = TRUE), .groups = "drop")
+    
+}
+
+# scaling functions 
+range01 <- function(x){(x-min(x))/(max(x)-min(x))}
+range_wna <- function(x){(x-min(x, na.rm = TRUE))/(max(x, na.rm = TRUE)-min(x, na.rm = TRUE))}
+
+#mode function 
+mode <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+locations <- read_excel("./data/Locations.xlsx") %>% 
+  clean_names()
+
+pcode3_shape <- 
+  st_read("./data/syr_admbnda_uncs_unocha_20201217/syr_admbnda_adm3_uncs_unocha_20201217.shp")
+
+arabic_labels <- function(x) paste0("\u202b", x)
+
+report_date <- "11 April 2023"
+```
+
+
+```{r data}
+names_eq <- c(
+  "date",
+  "governorate",
+  "district",
+  "sub_district",
+  "community",
+  "admin4",
+  "casualties",
+  "injuries",
+  "completely_destroyed_houses",
+  "damaged_unihabitable_houses",
+  "temporary_accommodation_centres",
+  "idps_in_all_centres",
+  "schools_as_accomodation_centres",
+  "idps_in_schools",
+  "tents_needed",
+  "blankets_mattresses_needed",
+  "temporary_accommodation_centres_available", 
+  "accessible_civil_defense",
+  "latrines_available",
+  "meals_needed_per_day",
+  "need_blood_donations",
+  "health_services_available",
+  "necessary_medical_equipment",
+  "rubble_volunteers",
+  "telecoms_available",
+  "electricity_available", 
+  "heating_fuel_needed"
+)
+
+eq <- read_excel("./data/syria-earthquake-impact-20-march-2023.xlsx",
+                 sheet = "DATASET") %>% 
+  setNames(names_eq) %>% 
+  left_join(locations %>% select(admin4pcode, admin3pcode), 
+            by = c("admin4" = "admin4pcode")) %>% 
+  mutate(wounded_dead = casualties + injuries,
+             damaged_houses = completely_destroyed_houses + damaged_unihabitable_houses) %>% 
+      group_by(admin3pcode) %>% 
+      summarise(wounded_dead = sum(wounded_dead, na.rm = TRUE), 
+                damaged_houses = sum(damaged_houses, na.rm = TRUE)) %>% 
+  left_join(read_excel("./data/2023HNO_PiN_Severity_detailedAoI_FORSHARE 15032023.xlsx", skip = 1, 
+                  sheet = 1) %>%
+              clean_names() %>%
+              select(admin3pcode, total_population), 
+            by = "admin3pcode") %>% 
+  mutate(wounded_dead_100k = wounded_dead / total_population * 100000, 
+         damaged_houses_100k = damaged_houses / total_population * 100000)
+
+
+eq_mdepriv <- eq %>%
+  mutate_at(vars(wounded_dead, damaged_houses, 
+                 wounded_dead_100k, damaged_houses_100k), ~ range_wna(.)) %>% 
+  mdepriv(c("wounded_dead", "damaged_houses", 
+            "wounded_dead_100k", "damaged_houses_100k"), 
+          method = "cz", output = "all", 
+          score_i_heading = "eq_score")
+
+eq <- eq %>% 
+  left_join(eq_mdepriv$data %>% 
+              select(admin3pcode, eq_score), 
+            by = "admin3pcode")
+
+# Think of another way to do this -- if someone else runs this, it won't work 
+cbr <- read_csv("./data/cbr_com.csv") %>% 
+  mutate(month = month(distribution_date)) %>% 
+  replace_na(list(beneficiaries = 0)) 
+  
+
+hno <- read_excel("./data/2023HNO_PiN_Severity_detailedAoI_FORSHARE 15032023.xlsx", skip = 1, 
+                  sheet = 1) %>%
+  clean_names()
+
+
+nw_pcode3 <- hno %>% 
+  filter(ao_c == "NW") %>% 
+  pull(admin3pcode)
+
+four <- read_csv("./data/4ws.csv")
+
+```
+
+### 5.2 Reporting quality 
+
+This section documents issues encountered in the cleaning of 4W and FSL data and their impacts on the quality of reporting the CWG can provide. Recommendations by the CWG are included to enhance reporting quality: 
+
+Note that substantial cleaning has already taken place and these outstanding issues could not be resolved by the time of reporting. 
+
+However, the CWG recognises that not all reporting issues were due to partner error. The CWG will work with partners to continue improving reporting quality. 
+
+<br> 
+
+```{r}
+cbr %>% 
+  filter(project_status == "Completed") %>% 
+  group_by(source) %>% 
+  summarise(partners = n_distinct(implementing_partner),
+            beneficiaries = sum(beneficiaries)) %>% 
+  mutate(`%_beneficiaries` = round(beneficiaries / sum(beneficiaries) * 100, digits = 2)) %>% 
+  flextable() %>% 
+  set_caption("Still, one third of reporting originates from the FSL tracker") %>% 
+  theme_zebra() %>%
+  set_table_properties(layout = "autofit", width = .6)
+```
+
+
+
+<br>
+
+Below is a breakdown of reporting by date: 
+
+<br>
+
+```{r}
+cbr %>% 
+  filter(project_status == "Completed") %>% 
+  group_by(month = month(distribution_date, label = TRUE)) %>% 
+  summarise(partners = n_distinct(implementing_partner),
+            beneficiaries = sum(beneficiaries)) %>% 
+  mutate(`%_beneficiaries` = round(beneficiaries / sum(beneficiaries) * 100, digits = 2)) %>% 
+  flextable() %>% 
+  set_caption("January reporting is still largely incomplete") %>% 
+  theme_zebra() %>%
+  set_table_properties(layout = "autofit", width = .6)
+```
+
+<br> 
+
+Activities pertaining to 14,432 were missing their date or had dates in unreadable formats. However, the columns `start date`, `end date` and `month of reporting` were some of the most troublesome and consumed a large part of the time dedicated to data cleaning. 
+
+The CWG would like to reiterate that `start date` and `end date` should be entered in the format mm/dd/yyyy and that `month of reporting` should be selected from the dropdown menu. 
+
+<br>
+
+
+
+Below is a breakdown of planned actitivities by source:
+
+<br>
+
+
+```{r}
+cbr %>% 
+  filter(project_status == "Planned") %>% 
+  group_by(source) %>% 
+  summarise(partners = n_distinct(implementing_partner), 
+            beneficiaries = sum(beneficiaries, na.rm = TRUE)) %>% 
+  mutate(`%_beneficiaries` = round(beneficiaries / sum(beneficiaries) * 100, digits = 2)) %>% 
+  flextable() %>% 
+  set_caption("Breakdown of planned activities by source") %>% 
+  theme_zebra() %>%
+  set_table_properties(layout = "autofit", width = .6)
+```
+
+
+<br><br>
+
+### 5.3 Disaggregations 
+
+
+Of the 565 rows reported through the 4Ws (the FSL tracker does not ask for beneficiary disaggregations), only `r four %>% filter(project_status == "Completed") %>% filter(!is.na(elderly_females_60) | !is.na(elderly_males_60)) %>% nrow()` have any values for the numbers of elderly persons reached. 
+
+The total number of elderly persons reached by the CWG partners is `r four %>% filter(project_status == "Completed") %>% summarise(elderly = round(sum(elderly_females_60, na.rm = TRUE) + sum(elderly_males_60, na.rm = TRUE), digits = 0)) %>% pull() %>% format(big.mark = ",")`. The total number of beneficiaries reached is `r filter(cbr, project_status == "Completed") %>% {sum(.$beneficiaries, na.rm = TRUE)} %>% format(big.mark = ",")`. 
+
+It is unclear how able partners are to comply with sex- and age-disaggregated reporting. 452 of the 565 rows reported through the 4Ws contain some form of sex-and-age disaggregation. Of these, only 366 rows have not copy/pasted the disaggregations from the MSNA (13% men, 27% women, 28% boys and 31% girls). For analysis purposes, these have been discarded. In future, it is always preferable to leave disaggregation columns blank as opposed to including values that have been backfilled from a census or a survey, especially as this backfilling will be done by OCHA as a final step in reporting anyway. 
+
+This is a histogram of the remaining values: 
+
+<br>
+
+```{r}
+four %>% 
+  filter(!is.na(men_18_60) | !is.na(women_18_60) | !is.na(boys_18) | !is.na(girls_18)) %>% 
+  select(beneficiaries, men_18_60, women_18_60, boys_18, girls_18) %>% 
+  adorn_percentages("row") %>%  
+  filter(men_18_60 != .13  & women_18_60 != .27) %>% 
+  mutate(pc_male = men_18_60 + boys_18)  %>%  
+  ggplot(aes(x = pc_male)) + 
+  geom_density(colour = "blue", alpha = .7) + 
+  geom_histogram(bins = 50, alpha = .8) + 
+  scale_x_log10(labels = percent) + 
+  labs(title = "Abnormal distribution of men as percentage of individuals reached", 
+       x = "Males as % of total", 
+       y = "Number of rows")
+```
+
+<br>
+
+This differs quite significantly from what we would expect to see in the general population and is indicative of "unnatural" data i.e. copy/pasting or broad estimations, as opposed to actual counts. The peaks around 49% and 50% show that these same percentages were copy/pasted onto a large number of rows. 
+
+For reference, this the percentage of males as a proportion of the people in need per sub-district. The distribution is roughly normal and we can see that these are "real" figures. 
+
+<br>
+
+```{r}
+hno %>% 
+  ggplot(aes(x = male_percent)) + 
+  geom_density(colour = "blue", alpha = .7) + 
+  geom_histogram(bins = 50, alpha = .8) + 
+  scale_x_log10(labels = percent) + 
+  labs(title = "Normal distribution of males as percentage of PIN in Syria", 
+       x = "Males as % of total", 
+       y = "Number of sub-districts")
+```
+
+
+<br> 
+
+
+Until such time copy/pasted values are excluded from the sex-and-age disggregations, it would be incorrect to estimate the number of men, women, boys and girls reached from the 4W values. This also means that it is not possible to determine if there is a skew towards either sex in our current programming. 
+
