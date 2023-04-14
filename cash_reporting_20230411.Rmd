@@ -754,7 +754,7 @@ cbr %>%
   filter(project_status == "Planned") %>% 
   mutate(month = month(distribution_date, label = TRUE), 
          month = as.character(month)) %>% 
-  mutate(month = ifelse(month %in% c("Feb", "Mar"), NA_character_, month)) %>% 
+  mutate(month = ifelse(month %in% c("Feb", "Mar") | is.na(month), "NA", month)) %>% 
   group_by(month) %>% 
   summarise(beneficiaries = sum(beneficiaries, na.rm = TRUE)) %>% 
   mutate(month = fct_relevel(month, c("Apr", "May", "Jun"))) %>% 

@@ -667,7 +667,6 @@ The CWG is currently working on a prioritisation score, which can be a useful sh
 ### 3.3 Planned activities 
 
 
-
 ```{r}
 cbr %>% 
   filter(project_status == "Planned") %>%
