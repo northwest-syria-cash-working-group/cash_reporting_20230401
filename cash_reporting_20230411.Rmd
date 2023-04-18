@@ -177,7 +177,7 @@ eq <- read_excel("./data/syria-earthquake-impact-20-march-2023.xlsx",
   left_join(read_excel("./data/2023HNO_PiN_Severity_detailedAoI_FORSHARE 15032023.xlsx", skip = 1, 
                   sheet = 1) %>%
               clean_names() %>%
-              select(admin3pcode, total_population), 
+              select(admin3pcode, total_population, aoc = ao_c), 
             by = "admin3pcode") %>% 
   mutate(wounded_dead_100k = wounded_dead / total_population * 100000, 
          damaged_houses_100k = damaged_houses / total_population * 100000)
@@ -214,6 +214,7 @@ nw_pcode3 <- hno %>%
 four <- read_csv("./data/4ws.csv")
 
 ```
+
 
 <br><br><br>
 

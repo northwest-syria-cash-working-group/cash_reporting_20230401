@@ -41,7 +41,7 @@
 "0","  left_join(read_excel(""./data/2023HNO_PiN_Severity_detailedAoI_FORSHARE 15032023.xlsx"", skip = 1, "
 "0","                  sheet = 1) %>%"
 "0","              clean_names() %>%"
-"0","              select(admin3pcode, total_population), "
+"0","              select(admin3pcode, total_population, aoc = ao_c), "
 "0","            by = ""admin3pcode"") %>% "
 "0","  mutate(wounded_dead_100k = wounded_dead / total_population * 100000, "
 "0","         damaged_houses_100k = damaged_houses / total_population * 100000)"
